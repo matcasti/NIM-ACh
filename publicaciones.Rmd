@@ -2,4 +2,6 @@
 title: "Investigación y Desarrollo"
 description: |
   Aquí se muestran los trabajos de investigación y/o desarrollo realizados por nuestro equipo.
+listing: publicaciones
 ---
+

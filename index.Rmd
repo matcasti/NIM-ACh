@@ -1,8 +1,9 @@
 ---
 title: "NIM-ACh"
 description: |
-  Laboratorio de Neurofisiologia Integrativa y Molecular Austral Chilena 
+  Neurofisiologia Integrativa y Molecular Austral Chilena 
 site: distill::distill_website
+listing: posts
 ---
 
 ```{r setup, include=FALSE}

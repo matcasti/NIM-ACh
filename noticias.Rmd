@@ -2,4 +2,5 @@
 title: "Noticias"
 description: |
   Entérate de lo último.
+listing: posts
 ---
