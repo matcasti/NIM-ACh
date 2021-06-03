@@ -115,3 +115,16 @@ d-appendix {
   border-top: none;
 }
 
+.algolia-autocomplete {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: 60%;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    border-radius: 6px;
+    border: 1px #0F2E3D solid;
+    width: 180px;
+}
