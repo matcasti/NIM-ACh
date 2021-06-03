@@ -2175,6 +2175,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-size:        15px;
     --hover-color:      #787878;                   /* edited */
     --bkgd-color:       #fff;                      /* edited */
+    vertical-align: 70%;
   }
 
   .distill-site-header .title {
@@ -2197,6 +2198,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   .distill-site-header { 
     letter-spacing: 2px;
     text-transform: uppercase;
+    vertical-align: 70%;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -2222,7 +2224,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-appendix {
     background-color: #fdf7f9;
     border-top: none;
-  }</style>
+  }
+  </style>
   <style type="text/css">
   /* base style */
 
@@ -2379,6 +2382,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+  <script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+  <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+  <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+  <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+  <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+  <script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+  <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+  <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+  <script src="site_libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
+  <script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+  <script src="site_libs/leaflet-providers-plugin-2.0.4.1/leaflet-providers-plugin.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2426,6 +2440,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <div class="nav-right">
 <a href="index.html">Inicio</a>
+<a href="noticias.html">Noticias</a>
+<a href="publicaciones.html">Publicaciones</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
 NOSOTROS
@@ -2454,6 +2470,18 @@ NOSOTROS
 
 
 <div class="d-article">
+<div class="l-page" style="display: flex; vertical-align: top;">
+<div style="margin-right: 40px">
+<div class="layout-chunk" data-layout="l-body">
+<div id="htmlwidget-7028382fe3c96cde6684" style="width:624px;height:384px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7028382fe3c96cde6684">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addMarkers","args":[-53.1667,-70.9333,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addProviderTiles","args":["Wikimedia",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[-53.1667,-53.1667],"lng":[-70.9333,-70.9333]},"setView":[[-53.1667,-70.9333],6,[]]},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<section id="todo-nace-en-el-sur" style="display: block">
+<h2>Todo nace en el sur</h2>
+<p>Información adicional sobre el origen (quizás misión, visión) de NIM-ACh</p>
+</section>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2504,15 +2532,15 @@ NOSOTROS
 
 <div class="row">
   <div class="column">
-    <h2>Column 1</h2>
+    <h3>Sigue nuestras redes</h3>
     <p>Some text..</p>
   </div>
   <div class="column">
-    <h2>Column 2</h2>
+    <h2>Laboratorios asociados</h2>
     <p>Some text..</p>
   </div>
   <div class="column">
-    <h2>Column 3</h2>
+    <h2>Esponsores</h2>
     <p>Some text..</p>
   </div>
 </div>

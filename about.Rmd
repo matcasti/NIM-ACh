@@ -6,5 +6,24 @@ description: |
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(leaflet)
 ```
 
+<div style="display: flex; vertical-align: top;" class="l-page">
+  <div style="margin-right: 40px">
+```{r}
+leaflet() %>% 
+  addMarkers(lng = -70.9333, lat = -53.1667) %>% 
+  setView(lng = -70.9333, lat = -53.1667, zoom = 6) %>% 
+  addTiles() %>% 
+  addProviderTiles(providers$Wikimedia)
+```
+  </div>
+ 
+  <div style="display: block">
+## Todo nace en el sur
+
+Información adicional sobre el origen (quizás misión, visión) de NIM-ACh
+
+  </div>
+</div>

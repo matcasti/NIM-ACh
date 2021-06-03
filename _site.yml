@@ -11,7 +11,11 @@ navbar:
   right:
     - text: "Inicio"
       href: index.html
-    - text: NOSOTROS
+    - text: "Noticias"
+      href: noticias.html
+    - text: "Publicaciones"
+      href: publicaciones.html
+    - text: "NOSOTROS"
       menu:
         - text: "Acerca de"
           href: about.html

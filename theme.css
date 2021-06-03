@@ -64,6 +64,7 @@ d-appendix {
   --text-size:        15px;
   --hover-color:      #787878;                   /* edited */
   --bkgd-color:       #fff;                      /* edited */
+  vertical-align: 70%;
 }
 
 .distill-site-header .title {
@@ -86,6 +87,7 @@ ul > li::marker {
 .distill-site-header { 
   letter-spacing: 2px;
   text-transform: uppercase;
+  vertical-align: 70%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -112,3 +114,4 @@ d-appendix {
   background-color: #fdf7f9;
   border-top: none;
 }
+
