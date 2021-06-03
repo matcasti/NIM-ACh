@@ -1,0 +1,26 @@
+name: "."
+title: "NIM-ACh"
+theme: theme.css
+description: |
+  NIM-ACh: Laboratorio de Neurofisiologia Integrativa y Molecular Austral Chilena 
+output_dir: "docs"
+navbar:
+  logo:
+    image: images/Logo.png
+  search: true
+  right:
+    - text: "Inicio"
+      href: index.html
+    - text: NOSOTROS
+      menu:
+        - text: "Acerca de"
+          href: about.html
+        - text: "Equipo"
+          href: nosotros.html
+cookie_consent:
+  style: simple
+  type: express
+  palette: light
+  lang: es
+  cookies_policy: url
+output: distill::distill_article

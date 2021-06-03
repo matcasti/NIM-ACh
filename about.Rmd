@@ -1,0 +1,10 @@
+---
+title: "Acerca del sitio"
+description: |
+  Detalles adicionales de NIM-ACh.
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+

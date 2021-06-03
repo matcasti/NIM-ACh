@@ -1,0 +1,28 @@
+---
+title: "NIM-ACh"
+description: |
+  Laboratorio de Neurofisiologia Integrativa y Molecular Austral Chilena 
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(slickR)
+```
+
+```{r, layout="l-page", out.height=510}
+(
+  slickR(obj = c("images/slider/cadi.jpg",
+                 "images/slider/puq.jpg"), 
+         padding = 1.05, 
+         height = 500) + 
+    settings(autoplay = TRUE, arrows = T)
+) %synch%
+  (
+    slickR(obj = c("Centro Asistencial Docente y de Investigación (CADI)", 
+                   "Región de Magallanes y Antártica Chilena"), 
+           slideType = "p") +
+      settings(arrows = FALSE)
+  )
+```
+
