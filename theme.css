@@ -128,3 +128,9 @@ d-appendix {
     border: 1px #0F2E3D solid;
     width: 180px;
 }
+
+.nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    letter-spacing: 2px;
+    font-size: var(--text-size, 15px);
+}
