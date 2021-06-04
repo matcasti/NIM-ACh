@@ -3,7 +3,6 @@ title: "NIM-ACh"
 description: |
   Neurofisiologia Integrativa y Molecular Austral Chilena 
 site: distill::distill_website
-listing: posts
 ---
 
 ```{r setup, include=FALSE}
@@ -11,13 +10,13 @@ knitr::opts_chunk$set(echo = FALSE)
 library(slickR)
 ```
 
-```{r, layout="l-page", out.height=510}
+```{r, layout="l-screen", out.height=510}
 (
   slickR(obj = c("images/slider/cadi.jpg",
                  "images/slider/puq.jpg"), 
          padding = 1.05, 
          height = 500) + 
-    settings(autoplay = TRUE, arrows = T)
+    settings(autoplay = TRUE, arrows = T, dots = TRUE)
 ) %synch%
   (
     slickR(obj = c("Centro Asistencial Docente y de Investigación (CADI)", 
@@ -27,3 +26,53 @@ library(slickR)
   )
 ```
 
+<br>
+<br>
+
+<div class="l-page">
+
+# Conoce nuestras líneas de investigación
+
+Actualmente contamos con tres areas de interés principales.
+
+## Adaptación humana a ambientes extremos
+
+<div class="row">
+  <div class="column" style="width: 50%;">
+  <img src="images/slider/nieve.png" style="width:100.0%; object-fit: cover;">
+  </div>
+  <div class="column" style="width: 50%;">
+  <p style="text-align: justify;">El ser humano ha mostrado ser capaz de adaptarse las condiciones adversas que el medio le impone, sin embargo, existen ciertos escenarios en los cuales aún no es del todo claro cómo el cuerpo se adapta, como por ejemplo el clima polar antártico, en donde la resiliencia es un fenómeno de estudio enfocado a entender los procesos fisiológicos que ocurren en el organismo en ambientes extremos.</p>
+  <h3>Convenios y/o colaboradores</h3>
+  - MEDIANTAR, Universidad de Minas Gerais, Brasil  
+  - Proyecto Habitat, Universidad Arturo Prat, Chile
+  </div>
+</div>
+
+## Neurofisiología del envejecimiento
+
+<div class="row">
+  <div class="column" style="width: 50%;">
+  <img src="images/slider/old-adults.JPG" style="width:100.0%; object-fit: cover;">
+  </div>
+  <div class="column" style="width: 50%;">
+  <p style="text-align: justify;">El envejecimiento es un proceso fisiológico que forma parte del ciclo vital de todo ser humano pero el ritmo en el cual este se produce es variable y está en función de factores genéticos, medioambientales y comportamentales.</p>
+  <h3>Convenios y/o colaboradores</h3>
+  - Centro Interuniversitario de Envejecimiento Saludable (CIES), Chile
+  </div>
+</div>
+
+## Efectos autonómicos del ejercicio y la actividad física
+
+<div class="row">
+  <div class="column" style="width: 50%;">
+  <img src="images/slider/lab-nunes.jpg" style="width:100.0%; object-fit: cover;">
+  </div>
+  <div class="column" style="width: 50%;">
+  <p style="text-align: justify;"> El sistema nervioso autónomo (SNA) es la parte del sistema nervioso; este regula aquellos procesos fisiológicos de carácter involuntarios, pero tambien pone al organismo en un estado de alerta, generado por diversos agentes estresores. En los últimos años, la literatura sugiere que pueden existir estados desregulados del SNA en diversas condiciones fisiopatológicas, pero que el ejercicio y la actividad física tienen la capacidad para modificar esta respuesta autonómica.</p>
+  <h3>Convenios y/o colaboradores</h3>
+  - Physical Activity and Exercise Physiology Group, Chile
+  </div>
+</div>
+
+</div>

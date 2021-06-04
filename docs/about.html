@@ -2161,9 +2161,25 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ARTICLE APPENDIX --*/
   d-appendix {
     --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);      
+    --heading-color:   #ffffff;      
     --text-size:       0.9rem;                    /* edited */
-    --text-color:      #1a162d;                   /* edited */
+    --text-color:      #ffffff;                   /* edited */
+  }
+
+  d-appendix .citation-appendix, .d-appendix .citation-appendix {
+      font-size: 11px;
+      line-height: 15px;
+      border-left: 1px solid rgba(0, 0, 0, 0.1);
+      padding-left: 18px;
+      border: 1px solid rgba(0,0,0,0.1);
+      background: rgba(157, 157, 157, 0.25);
+      padding: 10px 18px;
+      border-radius: 3px;
+      color: rgba(255, 255, 255, 1);
+      overflow: hidden;
+      margin-top: -12px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
   }
 
   /*-- WEBSITE HEADER + FOOTER --*/
@@ -2184,9 +2200,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .distill-site-footer {
     --text-color:       #ffffff;                   /* edited */
-    --text-size:        15px;
+    --text-size:        13px;
     --hover-color:      white;
     --bkgd-color:       #006699;                 /* edited */
+  }
+
+  .distill-site-footer {
+      width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+      z-index: 3;
+      margin-top: 0px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
   }
 
   /*-- Additional custom styles --*/
@@ -2206,6 +2233,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     font-weight: 300;
   }
 
+  d-article h1 {
+    line-height: 1em;
+    font-size: 2.5em;
+  }
+
+  d-article h2 {
+    font-size: 1.6em;
+  }
+
   .distill-site-header .logo img{
     max-height: 60px; /* Makes logo bigger, default was 20px */
   }
@@ -2222,8 +2258,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   d-appendix {
-    background-color: #fdf7f9;
+    background-color: #006699;
     border-top: none;
+    padding-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .algolia-autocomplete {
@@ -2269,6 +2307,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     .column {
       width: 100%;
     }
+  }
+
+  img {
+    border-radius: 2%;
+    object-fit: contain;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2514,23 +2557,18 @@ NOSOTROS
 
 
 <div class="d-article">
-<style>
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-</style>
+<div class="l-page">
 <div class="row">
-<div class="column">
+<div class="column" style="width: 50%;">
 <div class="layout-chunk" data-layout="l-body">
-<div id="htmlwidget-e581f3cd365b4940d6d7" style="width:624px;height:384px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e581f3cd365b4940d6d7">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addMarkers","args":[-53.1667,-70.9333,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addProviderTiles","args":["Wikimedia",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[-53.1667,-53.1667],"lng":[-70.9333,-70.9333]},"setView":[[-53.1667,-70.9333],6,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-23e41fead06b85cfcdaf" style="width:624px;height:384px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-23e41fead06b85cfcdaf">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addMarkers","args":[-53.1667,-70.9333,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addProviderTiles","args":["Wikimedia",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[-53.1667,-53.1667],"lng":[-70.9333,-70.9333]},"setView":[[-53.1667,-70.9333],6,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
-<div class="column">
+<div class="column" style="width: 50%;">
 <h2 id="todo-nace-en-el-sur">Todo nace en el sur</h2>
 Información adicional sobre el origen (quizás misión, visión) de NIM-ACh
+</div>
 </div>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
@@ -2551,21 +2589,26 @@ Información adicional sobre el origen (quizás misión, visión) de NIM-ACh
 <div class="distill-site-nav distill-site-footer">
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
 <div class="row">
   <div class="column">
     <h3>Sigue nuestras redes</h3>
-    <a href="http://www.umag.cl">Universidad de Magallanes - UMAG</a>
+    <a href="http://www.umag.cl" style="margin-bottom: 0px;">Universidad de Magallanes - UMAG</a>
   </div>
   <div class="column">
-    <h3>Laboratorios asociados</h3>
-    <p>Some text..</p>
+    <h3>Asociados</h3>
+    <p style="margin-bottom: 0px;">Physical Activity and Exercise Physiology Group</p>
+    <p style="margin-bottom: 0px;">Centro Interuniversitario de Envejecimiento Saludable (CIES)]</p>
+    <p style="margin-bottom: 0px;">MEDIANTAR, Universidad de Minas Gerais</p>
+    <p style="margin-bottom: 0px;">Proyecto Habitat, Universidad Arturo Prat</p>
   </div>
   <div class="column">
-    <h3>Esponsores</h3>
-    <p>Some text..</p>
+    <h3>Contacto</h3>
+    <p style="margin-bottom: 0px;">Cristian Núñez Espinosa</p>
+    <p style="margin-bottom: 0px;">Phone: +56 61 2201411</p>
+    <a href="mailto:cristian.nunez@umag.cl" style="margin-bottom: 0px;">Enviar correo</a>
   </div>
 </div>
 

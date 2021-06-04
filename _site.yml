@@ -2,7 +2,7 @@ name: "."
 title: "NIM-ACh"
 theme: theme.css
 description: |
-  NIM-ACh: Neurofisiologia Integrativa y Molecular Austral Chilena 
+  Neurofisiologia Integrativa y Molecular Austral Chilena 
 base_url: https://nimach.org
 preview: images/Logo.png
 output_dir: "docs"
@@ -26,9 +26,12 @@ navbar:
           href: nosotros.html
 collections:
   posts: 
-    categories: true
+    disqus: nim-ach-news
+    share: [twitter, linkedin, facebook, google-plus, pinterest]
+    citations: false
   publicaciones: 
-    categories: true
+    share: [twitter, linkedin, facebook, google-plus, pinterest]
+    citations: false
 cookie_consent:
   style: simple
   type: express

@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://nimach.org/publicaciones.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -108,7 +107,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","listing"]}},"value":[{"type":"character","attributes":{},"value":["Investigación y Desarrollo"]},{"type":"character","attributes":{},"value":["Aquí se muestran los trabajos de investigación y/o desarrollo realizados por nuestro equipo.\n"]},{"type":"character","attributes":{},"value":["publicaciones"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Investigación y Desarrollo"]},{"type":"character","attributes":{},"value":["Aquí se muestran los trabajos de investigación y/o desarrollo realizados por nuestro equipo."]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2162,9 +2161,25 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ARTICLE APPENDIX --*/
   d-appendix {
     --heading-size:    15px;
-    --heading-color:   rgba(0, 0, 0, 0.65);      
+    --heading-color:   #ffffff;      
     --text-size:       0.9rem;                    /* edited */
-    --text-color:      #1a162d;                   /* edited */
+    --text-color:      #ffffff;                   /* edited */
+  }
+
+  d-appendix .citation-appendix, .d-appendix .citation-appendix {
+      font-size: 11px;
+      line-height: 15px;
+      border-left: 1px solid rgba(0, 0, 0, 0.1);
+      padding-left: 18px;
+      border: 1px solid rgba(0,0,0,0.1);
+      background: rgba(157, 157, 157, 0.25);
+      padding: 10px 18px;
+      border-radius: 3px;
+      color: rgba(255, 255, 255, 1);
+      overflow: hidden;
+      margin-top: -12px;
+      white-space: pre-wrap;
+      word-wrap: break-word;
   }
 
   /*-- WEBSITE HEADER + FOOTER --*/
@@ -2185,9 +2200,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   .distill-site-footer {
     --text-color:       #ffffff;                   /* edited */
-    --text-size:        15px;
+    --text-size:        13px;
     --hover-color:      white;
     --bkgd-color:       #006699;                 /* edited */
+  }
+
+  .distill-site-footer {
+      width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+      z-index: 3;
+      margin-top: 0px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
   }
 
   /*-- Additional custom styles --*/
@@ -2207,6 +2233,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     font-weight: 300;
   }
 
+  d-article h1 {
+    line-height: 1em;
+    font-size: 2.5em;
+  }
+
+  d-article h2 {
+    font-size: 1.6em;
+  }
+
   .distill-site-header .logo img{
     max-height: 60px; /* Makes logo bigger, default was 20px */
   }
@@ -2223,8 +2258,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   d-appendix {
-    background-color: #fdf7f9;
+    background-color: #006699;
     border-top: none;
+    padding-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .algolia-autocomplete {
@@ -2270,6 +2307,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     .column {
       width: 100%;
     }
+  }
+
+  img {
+    border-radius: 2%;
+    object-fit: contain;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2453,7 +2495,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
@@ -2494,147 +2536,6 @@ NOSOTROS
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="Investigación y Desarrollo">Investigación y Desarrollo</h1>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
 <h1>Investigación y Desarrollo</h1>
@@ -2645,6 +2546,208 @@ function init_posts_list() {
 
 
 <div class="d-article">
+<div class="layout-chunk" data-layout="l-page">
+<table class="huxtable" style="border-collapse: collapse; border: 0px; margin-bottom: 2em; margin-top: 2em; ; margin-left: auto; margin-right: auto;  " id="tab:unnamed-chunk-2">
+<col style="width: 10%">
+<col style="width: 80%">
+<col style="width: 10%">
+<tr>
+<th style="vertical-align: top; text-align: center; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 0pt; font-weight: bold;">
+Fecha
+</th>
+<th style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: bold;">
+Título
+</th>
+<th style="vertical-align: top; text-align: center; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0.4pt 0pt;    padding: 6pt 0pt 6pt 6pt; font-weight: bold;">
+<p>
+Publicación
+</p>
+</th>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2021
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Efectos del ejercicio aeróbico en agua sobre el dolor percibido y la variabilidad cardiaca en mujeres con fibromialgia.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; border-style: solid solid solid solid; border-width: 0.4pt 0pt 0pt 0pt;    padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://archivosdemedicinadeldeporte.com/articulos/upload/or01_riquelme.pdf">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2021
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Efectos de la práctica de Hatha-Vinyasa Yoga en la regulación autonómica y el dolor percibido de mujeres mayores que viven en alta latitud sur. Un estudio piloto.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="http://dx.doi.org/10.47197/retos.v0i39.81629">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2021
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Asociación entre el índice de masa corporal y la regulación del sistema cardiovascular en estudiantes de medicina. Un estudio piloto.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://doi.org/10.30554/archmed.21.2.4005.2021">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2020
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Hormonal, autonomic cardiac and mood states changes during an Antarctic expedition: From ship travel to camping in Snow Island.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://doi.org/10.1016/j.physbeh.2020.113069">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2020
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Relación entre los niveles de ansiedad precompetitiva y rendimiento deportivo en atletas adolescentes.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://revistasochmedep.cl/edicion-numero-65-1/relacion-entre-los-niveles-de-ansiedad-precompetitiva-y-rendimiento-deportivo-en-atletas-adolescentes/">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2020
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Redox modifications in synaptic components as biomarkers of cognitive status, in brain aging and disease.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://doi.org/10.1016/j.mad.2020.111250">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2019
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+A three-criteria performance score for rats exercising on a running treadmill.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://dx.doi.org/10.1371%2Fjournal.pone.0219167">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2018
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+The changes in maximal oxygen uptake (V̊O2MAX) induced by physical exertion during an Antarctic expedition depend on the initial V̊O2MAX of the individuals: a case study of the Brazilian expedition.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://doi.org/10.1080/22423982.2018.1521244">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2017
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Modulation of mitochondrial biomarkers by intermittent hypobaric hypoxia and aerobic exercise after eccentric exercise in trained rats.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://doi.org/10.1139/apnm-2016-0526">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2016
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Vybrant DyeCycle Violet Stain Discriminates Two Different Subsets of CD34+ Cells.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="http://dx.doi.org/10.2174/1574888X10666150528152547">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2015
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Circadian and Sex Differences After Acute High-Altitude Exposure: Are Early Acclimation Responses Improved by Blue Light?
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://doi.org/10.1016/j.wem.2015.06.009">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2015
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Effects of Intermittent Hypoxia and Light Aerobic Exercise on Circulating Stem Cells and Side Population, After Strenuous Eccentric Exercise in Trained Rats.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://doi.org/10.2174/1574888x09666140930130048">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2014
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Effect of intermittent hypoxia and exercise on blood rheology and oxygen transport in trained rats.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://doi.org/10.1016/j.resp.2013.12.011">✅</a>
+</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; text-align: center; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 0pt; font-weight: normal;">
+2013
+</td>
+<td style="vertical-align: top; text-align: left; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt;    padding: 6pt 6pt 6pt 6pt; font-weight: normal;">
+Fatiga, el enemigo del movimiento en altura. VFC una opción viable de detección.
+</td>
+<td style="vertical-align: top; text-align: center; white-space: normal; border-style: solid solid solid solid; border-width: 0pt 0pt 0.4pt 0pt;    padding: 6pt 0pt 6pt 6pt; font-weight: normal;">
+<p>
+<a href="https://dialnet.unirioja.es/servlet/articulo?codigo=4735534">✅</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2663,21 +2766,26 @@ function init_posts_list() {
 <div class="distill-site-nav distill-site-footer">
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
 <div class="row">
   <div class="column">
     <h3>Sigue nuestras redes</h3>
-    <a href="http://www.umag.cl">Universidad de Magallanes - UMAG</a>
+    <a href="http://www.umag.cl" style="margin-bottom: 0px;">Universidad de Magallanes - UMAG</a>
   </div>
   <div class="column">
-    <h3>Laboratorios asociados</h3>
-    <p>Some text..</p>
+    <h3>Asociados</h3>
+    <p style="margin-bottom: 0px;">Physical Activity and Exercise Physiology Group</p>
+    <p style="margin-bottom: 0px;">Centro Interuniversitario de Envejecimiento Saludable (CIES)]</p>
+    <p style="margin-bottom: 0px;">MEDIANTAR, Universidad de Minas Gerais</p>
+    <p style="margin-bottom: 0px;">Proyecto Habitat, Universidad Arturo Prat</p>
   </div>
   <div class="column">
-    <h3>Esponsores</h3>
-    <p>Some text..</p>
+    <h3>Contacto</h3>
+    <p style="margin-bottom: 0px;">Cristian Núñez Espinosa</p>
+    <p style="margin-bottom: 0px;">Phone: +56 61 2201411</p>
+    <a href="mailto:cristian.nunez@umag.cl" style="margin-bottom: 0px;">Enviar correo</a>
   </div>
 </div>
 

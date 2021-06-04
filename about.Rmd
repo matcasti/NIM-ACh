@@ -9,16 +9,9 @@ knitr::opts_chunk$set(echo = FALSE)
 library(leaflet)
 ```
 
-<style>
-.column {
-  float: left;
-  width: 50%;
-  padding: 10px;
-}
-</style>
-
+<div class="l-page">
 <div class="row">
-  <div class="column">
+  <div class="column" style="width: 50%;">
 ```{r}
 leaflet() %>% 
   addMarkers(lng = -70.9333, lat = -53.1667) %>% 
@@ -27,10 +20,11 @@ leaflet() %>%
   addProviderTiles(providers$Wikimedia)
 ```
   </div>
-  <div class="column">
+  <div class="column" style="width: 50%;">
 ## Todo nace en el sur
 
 Información adicional sobre el origen (quizás misión, visión) de NIM-ACh
   </div>
+</div>
 </div>
 
