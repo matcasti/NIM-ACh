@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
+  <url>
+    <loc>https://nimach.org/about.html</loc>
+    <lastmod>2021-06-04T13:34:43-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nimach.org/</loc>
+    <lastmod>2021-06-04T13:17:38-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nimach.org/nosotros.html</loc>
+    <lastmod>2021-06-03T11:06:46-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nimach.org/noticias.html</loc>
+    <lastmod>2021-06-03T12:01:05-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nimach.org/publicaciones.html</loc>
+    <lastmod>2021-06-03T17:41:37-04:00</lastmod>
+  </url>
+</urlset>
