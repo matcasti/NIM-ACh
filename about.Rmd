@@ -18,10 +18,8 @@ library(leaflet)
   <div class="two-column">
 ```{r}
 leaflet() %>% 
-  setView(lng = -70.9333, lat = -53.1667, zoom = 6) %>% 
-  addMarkers(lng = -70.9333, lat = -53.1667) %>% 
-  addTiles() %>% 
-  addProviderTiles(providers$Wikimedia)
+  setView(lng = -70.8965, lat = -53.152, zoom = 12) %>% 
+  addTiles()
 ```
   </div>
 </div>
