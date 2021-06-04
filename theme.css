@@ -178,9 +178,15 @@ d-appendix {
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
+.three-column {
   float: left;
   width: 33.33%;
+  padding: 10px;
+}
+
+.two-column {
+  float: left;
+  width: 50%;
   padding: 10px;
 }
 
@@ -193,7 +199,10 @@ d-appendix {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+  .three-column {
+    width: 100%;
+  }
+  .two-column {
     width: 100%;
   }
 }
@@ -201,4 +210,13 @@ d-appendix {
 img {
   border-radius: 2%;
   object-fit: contain;
+}
+
+.slick-list img{
+  object-fit: cover;
+}
+
+.two-column img{
+  min-height: 300px;
+  max-height: 350px;
 }

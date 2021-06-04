@@ -2289,9 +2289,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   /* Create two equal columns that floats next to each other */
-  .column {
+  .three-column {
     float: left;
     width: 33.33%;
+    padding: 10px;
+  }
+
+  .two-column {
+    float: left;
+    width: 50%;
     padding: 10px;
   }
 
@@ -2304,7 +2310,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .column {
+    .three-column {
+      width: 100%;
+    }
+    .two-column {
       width: 100%;
     }
   }
@@ -2312,6 +2321,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   img {
     border-radius: 2%;
     object-fit: contain;
+  }
+
+  .slick-list img{
+    object-fit: cover;
+  }
+
+  .two-column img{
+    min-height: 300px;
+    max-height: 350px;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2559,15 +2577,19 @@ NOSOTROS
 <div class="d-article">
 <div class="l-page">
 <div class="row">
-<div class="column" style="width: 50%;">
-<div class="layout-chunk" data-layout="l-body">
-<div id="htmlwidget-23e41fead06b85cfcdaf" style="width:624px;height:384px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-23e41fead06b85cfcdaf">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addMarkers","args":[-53.1667,-70.9333,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addProviderTiles","args":["Wikimedia",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[-53.1667,-53.1667],"lng":[-70.9333,-70.9333]},"setView":[[-53.1667,-70.9333],6,[]]},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-<div class="column" style="width: 50%;">
-<h2 id="todo-nace-en-el-sur">Todo nace en el sur</h2>
+<div class="two-column">
+<h2>
+Todo nace en el sur
+</h2>
+<p style="text-align: justify;">
 Información adicional sobre el origen (quizás misión, visión) de NIM-ACh
+</p>
+</div>
+<div class="two-column">
+<div class="layout-chunk" data-layout="l-body">
+<div id="htmlwidget-5e2eba50662077cf00e2" style="width:624px;height:384px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5e2eba50662077cf00e2">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[-53.1667,-70.9333],6,[]],"calls":[{"method":"addMarkers","args":[-53.1667,-70.9333,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},null,null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addProviderTiles","args":["Wikimedia",null,null,{"errorTileUrl":"","noWrap":false,"detectRetina":false}]}],"limits":{"lat":[-53.1667,-53.1667],"lng":[-70.9333,-70.9333]}},"evals":[],"jsHooks":[]}</script>
+</div>
 </div>
 </div>
 </div>
@@ -2593,18 +2615,18 @@ Información adicional sobre el origen (quizás misión, visión) de NIM-ACh
 </head>
 <body>
 <div class="row">
-  <div class="column">
+  <div class="three-column">
     <h3>Sigue nuestras redes</h3>
     <a href="http://www.umag.cl" style="margin-bottom: 0px;">Universidad de Magallanes - UMAG</a>
   </div>
-  <div class="column">
+  <div class="three-column">
     <h3>Asociados</h3>
     <p style="margin-bottom: 0px;">Physical Activity and Exercise Physiology Group</p>
     <p style="margin-bottom: 0px;">Centro Interuniversitario de Envejecimiento Saludable (CIES)]</p>
     <p style="margin-bottom: 0px;">MEDIANTAR, Universidad de Minas Gerais</p>
     <p style="margin-bottom: 0px;">Proyecto Habitat, Universidad Arturo Prat</p>
   </div>
-  <div class="column">
+  <div class="three-column">
     <h3>Contacto</h3>
     <p style="margin-bottom: 0px;">Cristian Núñez Espinosa</p>
     <p style="margin-bottom: 0px;">Phone: +56 61 2201411</p>

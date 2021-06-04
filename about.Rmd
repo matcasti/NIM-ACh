@@ -11,19 +11,18 @@ library(leaflet)
 
 <div class="l-page">
 <div class="row">
-  <div class="column" style="width: 50%;">
+  <div class="two-column">
+  <h2>Todo nace en el sur</h2>
+  <p style="text-align: justify;">Información adicional sobre el origen (quizás misión, visión) de NIM-ACh</p>
+  </div>
+  <div class="two-column">
 ```{r}
 leaflet() %>% 
-  addMarkers(lng = -70.9333, lat = -53.1667) %>% 
   setView(lng = -70.9333, lat = -53.1667, zoom = 6) %>% 
+  addMarkers(lng = -70.9333, lat = -53.1667) %>% 
   addTiles() %>% 
   addProviderTiles(providers$Wikimedia)
 ```
-  </div>
-  <div class="column" style="width: 50%;">
-## Todo nace en el sur
-
-Información adicional sobre el origen (quizás misión, visión) de NIM-ACh
   </div>
 </div>
 </div>
