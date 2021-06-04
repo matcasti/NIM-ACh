@@ -5,6 +5,7 @@ description: |
   Neurofisiologia Integrativa y Molecular Austral Chilena 
 base_url: https://nimach.org
 preview: images/Logo.png
+include: ["CNAME"]
 output_dir: "docs"
 navbar:
   logo:
@@ -27,9 +28,6 @@ navbar:
 collections:
   posts: 
     disqus: nim-ach-news
-    share: [twitter, linkedin, facebook, google-plus, pinterest]
-    citations: false
-  publicaciones: 
     share: [twitter, linkedin, facebook, google-plus, pinterest]
     citations: false
 cookie_consent:
