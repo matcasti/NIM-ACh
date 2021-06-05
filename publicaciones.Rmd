@@ -8,7 +8,9 @@ description: |
 library(huxtable); library(dplyr)
 ```
 
-```{r layout="l-page", echo=FALSE, results='asis'}
+<div class="l-page">
+<h2>Trabajos publicados</h2>
+```{r echo=FALSE, results='asis'}
 pubs <- readxl::read_xlsx("publicaciones.xlsx")
 pubs %>%
   arrange(desc(Fecha)) %>% 
@@ -21,3 +23,4 @@ pubs %>%
   print_html( )
 ```
 
+</div>

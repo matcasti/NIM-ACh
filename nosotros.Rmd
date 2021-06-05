@@ -4,3 +4,105 @@ description: |
   Información adicional acerca de las personas que conforman el equipo.
 ---
 
+<div class="l-page">
+
+<!--- Primer sujeto --->
+<h2>Cristian Núñez Espinosa</h2>
+<div class="row">
+ <!--- Imagen --->
+ <div class="img-column">
+ <img src="images/slider/Miembros/Cristian-Nunez-Espinosa.jpeg" style="display: block; border-radius: 50%; width: auto; height:  auto; max-width:300px; max-height:300px; margin: auto;">
+ </div>
+ <!--- Currículo --->
+ <div class="column-2-3" style="overflow-y:auto; max-height:300px;">
+ <!--- Situación profesional --->
+ <h3>Situación profesional</h3>
+ <p style="text-align: justify;">Profesor asociado en el departamento de Fisiología, en la Escuela de Medicina en la Universidad de Magallaes.</p>
+ <!--- Formación académica --->
+ <h3>Formación académica</h3>
+ <p style="text-align: justify;">Licenciado en Educación Física, Deporte y Recreación de la Universidad Metropolitana de Ciencias de la Educación en el año 2001.</p>
+ <p style="text-align: justify;">Profesor de Educación Física, Deporte y Recreación de la Universidad Metropolitana de Ciencias de la Educación en el año 2002.</p>
+ <p style="text-align: justify;">Magíster en Educación con Mención en Gestión Educacional de la Universidad de Santiago de Chile en el año 2005.</p>
+ <p style="text-align: justify;">Máster en Fisiología Integrativa de la Universidad de Barcelona de España en el año 2012.</p>
+ <p style="text-align: justify;">Doctor en Fisiología de la Universidad de Barcelona de España en el año 2015.</p>
+ <!--- Experiencia profesional --->
+ <h3>Experiencia profesional</h3>
+ <p style="text-align: justify;">Docente universitario en Fisiología I y II en la Escuela de Medicina en la Universidad de Magallanes desde el 2015 a la actualidad.</p>
+ <p style="text-align: justify;">Investigador en su Doctorado de Fisiología en la Facultad de Biología de la Universidad de Barcelona en el Departamento de Fisiología e Inmunología de España del año 2012 al 2015.</p>
+ <p style="text-align: justify;">Investigador en su Doctorado de Fisiología en la Facultad de Biología de la Universidad de Barcelona en el Departamento de Fisiología e Inmunología de España del año 2012 al 2015.</p>
+ </div>
+</div>
+
+<br>
+
+<h2>Matías Castillo Aguilar</h2>
+<div class="row">
+ <div class="img-column">
+ <img src="images/slider/Miembros/Cristian-Nunez-Espinosa.jpeg" style="display: block; border-radius: 50%; width: auto; height:  auto; max-width:300px; max-height:300px; margin: auto;">
+ </div>
+ <div class="column-2-3">
+ <p style="text-align: justify;">Acá irá info sobre el currículum</p>
+ </div>
+</div>
+
+<br>
+
+<h2>Caren Alvarado Aravena</h2>
+<div class="row">
+ <div class="img-column">
+ <img src="images/slider/Miembros/Cristian-Nunez-Espinosa.jpeg" style="display: block; border-radius: 50%; width: auto; height:  auto; max-width:300px; max-height:300px; margin: auto;">
+ </div>
+ <div class="column-2-3">
+ <p style="text-align: justify;">Acá irá info sobre el currículum</p>
+ </div>
+</div>
+
+<br>
+
+<h2>Felipe Retamal Matus</h2>
+<div class="row">
+ <div class="img-column">
+ <img src="images/slider/Miembros/Cristian-Nunez-Espinosa.jpeg" style="display: block; border-radius: 50%; width: auto; height:  auto; max-width:300px; max-height:300px; margin: auto;">
+ </div>
+ <div class="column-2-3">
+ <p style="text-align: justify;">Acá irá info sobre el currículum</p>
+ </div>
+</div>
+
+<br>
+
+<h2>Eduardo Borguenson Barrientos</h2>
+<div class="row">
+ <div class="img-column">
+ <img src="images/slider/Miembros/Cristian-Nunez-Espinosa.jpeg" style="display: block; border-radius: 50%; width: auto; height:  auto; max-width:300px; max-height:300px; margin: auto;">
+ </div>
+ <div class="column-2-3">
+ <p style="text-align: justify;">Acá irá info sobre el currículum</p>
+ </div>
+</div>
+
+<br>
+
+<h2>Matías Riquelme Ortega</h2>
+<div class="row">
+ <div class="img-column">
+ <img src="images/slider/Miembros/Cristian-Nunez-Espinosa.jpeg" style="display: block; border-radius: 50%; width: auto; height:  auto; max-width:300px; max-height:300px; margin: auto;">
+ </div>
+ <div class="column-2-3">
+ <p style="text-align: justify;">Acá irá info sobre el currículum</p>
+ </div>
+</div>
+
+<br>
+
+<h2>Camila Vasquez Cancino</h2>
+<div class="row">
+ <div class="img-column">
+ <img src="images/slider/Miembros/Cristian-Nunez-Espinosa.jpeg" style="display: block; border-radius: 50%; width: auto; height:  auto; max-width:300px; max-height:300px; margin: auto;">
+ </div>
+ <div class="column-2-3">
+ <p style="text-align: justify;">Acá irá info sobre el currículum</p>
+ </div>
+</div>
+
+</div>
