@@ -33,7 +33,8 @@ for (i in c("assets", "images")) {
 file.copy(from = "resources/CNAME", to = "_site/CNAME")
 
 # Main pages ----------------------------------------------------------------------------------
-# Index, News and Research
+
+## Create objects for glue replacement ----
 
 # Root (for sidebar in nested directories)
 root <- ""
@@ -54,6 +55,12 @@ sidebar <- readLines("resources/sidebar.txt") |>
 # Create social media icons
 social_media <- readLines("resources/social_media.txt") |>
   paste0(collapse = "\n")
+
+# Create lines of research
+rch_lines <- readLines("resources/rch_lines.txt") |> 
+  paste0(collapse = "\n")
+
+## Create HTML files ----
 
 # Create HOMEPAGE
 readLines("resources/index.txt") |>
