@@ -1,6 +1,6 @@
 <section>
 	<header class="main">
-		<h2>NIM-ACh formará parte de los evaluadores del 1er Concurso de Innovación, Ciencia y Tecnología de HABITAT</h2>
+		<h2>{news[[i]]$main}</h2>
 	</header>
 	<span class="image main"><img style="object-fit: cover; height: 30vh;" src="../images/news-2-fig-3.jpg" alt="" /></span>
 	<p>El proyecto HABITAT se origina en la oportunidad que se abre para la región, ante la escasez mundial de estaciones de investigación en ambientes extremos, para lograr la habitabilidad del ser humano en otros planetas, tema de amplio interés para el desarrollo aeroespacial mundial y nacional, para instalar dichas estaciones en la región de Tarapacá en el corto o mediano plazo, para mayor información visite el <a href="https://proyectohabitat.cl">sitio web del proyecto</a>.</p>
