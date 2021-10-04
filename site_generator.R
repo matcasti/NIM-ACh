@@ -51,6 +51,7 @@ sidebar <- readLines("resources/sidebar.txt") |>
   paste0(collapse = "\n") |>
   glue::glue()
 
+# Create social media icons
 social_media <- readLines("resources/social_media.txt") |>
   paste0(collapse = "\n")
 
@@ -100,7 +101,8 @@ sidebar_nested <- readLines("resources/sidebar.txt") |>
 # Create news
 for (i in current) {
   body <- readLines(paste0("news/news-", i, ".txt")) |>
-    paste0(collapse = "\n")
+    paste0(collapse = "\n") |> 
+    glue::glue()
   
   readLines("resources/news-template.txt") |> 
     paste0(collapse = "\n") |>
