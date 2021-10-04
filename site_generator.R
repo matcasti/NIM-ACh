@@ -29,6 +29,9 @@ for (i in c("assets", "images")) {
   )
 }
 
+# Copy CNAME file
+file.copy(from = "resources/CNAME", to = "_site/CNAME")
+
 # Main pages ----------------------------------------------------------------------------------
 # Index, News and Research
 
