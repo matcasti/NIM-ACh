@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>NIM-ACh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main content (not sidebar) -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>NIM-ACh</strong></a>
+									<ul class="icons">
+										{social_media}
+									</ul>
+								</header>
+
+							<!-- Members -->
+								<section>
+									<header class="major">
+										<h2>Conoce al equipo</h2>
+									</header>
+									<div class="members">
+										<article>
+											<div class="profile"><img class ="profile" src="images/members/nunez.jpeg" alt="" /></div>
+											<div class="content">
+												<h4><a href="mailto:cristian.nunez@umag.cl">Cristian Núñez Espinosa</a></h4>
+												<p>PhD, Fisiología </br> 
+												Profesor asociado en escuela de Medicina en la Universidad de Magallanes</p>
+											</div>
+										</article>
+										<article>
+											<div class="profile"><img class ="profile" src="images/members/retamal.jpeg" alt="" /></div>
+											<div class="content">
+												<h4><a href="mailto:felipe.retamal@umag.cl">Felipe Retamal Matus</a></h4>
+												<p>PhD ©, Fisioterapia </br> 
+												Profesor asociado en el departamento de Kinesiología en la Universidad de Magallanes</p>
+											</div>
+										</article>
+										<article>
+											<div class="profile"><img class ="profile" src="images/members/harris.jpg" alt="" /></div>
+											<div class="content">
+												<h4><a href="mailto:katherine.harris@umag.cl">Katherine Harris King</a></h4>
+												<p>Kinesiología en Ortopedia y Traumatología </br> 
+												Profesora asociada en el departamento de Kinesiología en la Universidad de Magallanes</p>
+											</div>
+										</article>
+										<article>
+											<div class="profile"><img class ="profile" src="images/members/valeska.jpeg" alt="" /></div>
+											<div class="content">
+												<h4><a href="mailto:valeska.oyarzo@umag.cl">Valeska Oyarzo Igor</a></h4>
+												<p>Lic. Fonoaudiología<br>
+												Profesora asociada en la Universidad de magallanes </p>
+											</div>
+										</article>
+										<article>
+											<div class="profile"><img class ="profile" src="images/members/castillo.jpeg" alt="" /></div>
+											<div class="content">
+												<h4><a href="mailto:matcasti@umag.cl">Matías Castillo Aguilar</a></h4>
+												<p>Estudiante de Kinesiología en la Universidad de Magallanes</p>
+											</div>
+										</article>
+										<article>
+											<div class="profile"><img class ="profile" src="images/members/caren.jpeg" alt="" /></div>
+											<div class="content">
+												<h4><a href="mailto:caren.ccaa@gmail.com">Caren Alvarado Aravena</a></h4>
+												<p>Estudiante de Medicina en la Universidad de Magallanes</p>
+											</div>
+										</article>
+									</div>
+								</section>
+								
+						</div>
+					</div>
+					
+					
+				{sidebar}
+          
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>

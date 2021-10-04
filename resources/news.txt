@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>NIM-ACh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main content (not sidebar) -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>NIM-ACh</strong></a>
+									<ul class="icons">
+										{social_media}
+									</ul>
+								</header>
+
+							<!-- News -->
+								<section>
+									<header class="major">
+										<h2>Noticias</h2>
+									</header>
+									<p>Manténgase al día de las últimas novedades, cambios y noticias oficiales relacionadas con nosotros.</p>
+									<div class="posts">
+									  
+										{news_index}
+										
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+				{sidebar}
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>

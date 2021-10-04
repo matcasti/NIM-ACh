@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>NIM-ACh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main content (not sidebar) -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>NIM-ACh</strong></a>
+									<ul class="icons">
+										{social_media}
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h2>Grupo de Neurofisiología Integrativa Molecular Austral Chilena</h2>
+										</header>
+										<p>Junto con nuestro equipo, hemos realizado múltiples estudios científicos, destinados a responder a preguntas relacionadas con nuestras líneas de investigación. A continuación puede ver nuestros trabajos publicados o el equipo que los ha realizado.</p>
+										<ul class="actions">
+											<li><a href="research.html#Research" class="button big">Publicaciones</a></li>
+											<li><a href="about.html" class="button big">Nosotros</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										<img src="images/nimach.png" alt="" />
+									</span>
+								</section>
+
+							<!-- Lines of research -->
+								<section>
+									<header class="major">
+										<a href="research.html"><h2>Líneas de investigación</h2></a>
+									</header>
+									<div class="features">
+										<article>
+											<span class="icon solid fa-dumbbell"></span>
+											<div class="content">
+												<h3>Efectos autonómicos del ejercicio y la actividad física</h3>
+												<p>El sistema nervioso autónomo ha sido implicado en varias condiciones fisiopatológicas, pero el ejercicio y la actividad física han sido estudiados por su capacidad de modificar su respuesta en la salud y la enfermedad.</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon fa-snowflake"></span>
+											<div class="content">
+												<h3>Adaptación humana a ambientes extremos</h3>
+												<p>El ser humano ha demostrado ser capaz de adaptarse a las condiciones adversas impuestas por el entorno, sin embargo, hay ciertos escenarios en los que aún no está del todo claro cómo se adapta el organismo.</p>
+											</div>
+										</article>
+										<article>
+											<span class="icon solid fa-wheelchair"></span>
+											<div class="content">
+												<h3>Neurofisiología del envejecimiento</h3>
+												<p>Aunque el envejecimiento es un proceso fisiológico que forma parte del ciclo vital de todo ser humano, el ritmo al que se produce es variable y depende de factores genéticos, ambientales y de comportamiento.</p>
+											</div>
+										</article>
+									</div>
+								</section>
+
+							<!-- News -->
+								<section>
+									<header class="major">
+										<a href="news.html"><h2>Noticias</h2></a>
+									</header>
+									<div class="posts">
+									  
+										{news_index}
+										
+									</div>
+								</section>
+								
+								<!-- Agreements and collaborators -->
+								<section>
+									<header class="major">
+										<h2>Convenios y colaboradores</h2>
+									</header>
+									<p>Los grandes avances de la ciencia no se deben al mérito individual, sino al trabajo en colaboración de científicos y personas capacitadas de todos los rincones del mundo. Así, en nuestras líneas de investigación trabajamos codo con codo con los grupos de investigación que se mencionan a continuación.</p>
+									<div class="features">
+										<article style="flex-wrap: wrap;">
+										  <span class="image fit"><img style="height: 300px; object-fit: cover;" src="images/swim.jpg" alt="" /></span>
+											<div class="content" style="align-items: top;">
+												<h3>Actividad física y ejercicio</h3>
+												<ul>
+												  <li>Physical Activity and Exercise Physiology Group, Chile.</li>
+												</ul>
+											</div>
+										</article>
+										<article style="flex-wrap: wrap;">
+										  <span class="image fit"><img style="height: 300px; object-fit: cover;" src="images/extremecold.jpg" alt="" /></span>
+											<div class="content">
+												<h3>Climas extremos</h3>
+												<ul>
+												  <li>MEDIANTAR, Universidad de Minas Gerais, Brasil.</li>
+												  <li>Proyecto Habitat, Universidad Arturo Prat, Chile.</li>
+												</ul>
+											</div>
+										</article>
+										<article style="flex-wrap: wrap;">
+										  <span class="image fit"><img style="height: 300px; object-fit: cover;" src="images/aging.jpg" alt="" /></span>
+											<div class="content">
+												<h3>Envejecimiento</h3>
+												<ul>
+												  <li>Centro Interuniversitario de Envejecimiento Saludable (CIES), Chile.</li>
+												</ul>
+											</div>
+										</article>
+									</div>
+								</section>
+								
+						</div>
+					</div>
+					
+					
+				{sidebar}
+          
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>

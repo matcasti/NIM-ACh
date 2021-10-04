@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>NIM-ACh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main content (not sidebar) -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>NIM-ACh</strong></a>
+									<ul class="icons">
+										{social_media}
+									</ul>
+								</header>
+								
+								<!-- Agreements and collaborators -->
+								<section>
+									<header class="major">
+										<h2>Quienes somos</h2>
+									</header>
+									<p>Los grandes avances de la ciencia no se deben al mérito individual, sino al trabajo en colaboración de científicos y personas capacitadas de todos los rincones del mundo. Así, en nuestras líneas de investigación trabajamos codo con codo con muchos grupos de investigación.</p>
+									<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76583.75224973001!2d-70.97647818674939!3d-53.14174665345911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc52ca58b309cc21%3A0xfa616a8b65456916!2sPunta%20Arenas%2C%20Magallanes%20y%20la%20Ant%C3%A1rtica%20Chilena!5e0!3m2!1ses!2scl!4v1633086210301!5m2!1ses!2scl" width="1000" height="600" style="border:0; width:100%; height: 100%;" allowfullscreen="" loading="lazy"></iframe></div>
+									<header class="major"><h2>Misión</h2></header>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mauris quam, feugiat in auctor at, hendrerit in justo. Nunc venenatis sed dolor sed aliquam. Integer rhoncus dolor et hendrerit posuere. Nunc ut enim urna. Maecenas tempus ornare erat sit amet euismod. Vestibulum tincidunt commodo scelerisque.</p>
+									<header class="major"><h2>Visión</h2></header>
+								  <p>Nullam placerat blandit ligula vitae suscipit. Curabitur pellentesque tincidunt erat, eget gravida ligula porttitor eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc enim lectus, lobortis vitae ultricies vitae, iaculis et eros.</p>
+								</section>
+								
+						</div>
+					</div>
+					
+					
+				{sidebar}
+          
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
