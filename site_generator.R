@@ -6,7 +6,7 @@
 library(glue)
 
 # And source helper scritps
-source("news_helper.R")
+source("news/news_helper.R")
 
 # Remove directory if exists (to start over)
 unlink(x = "_site", recursive = TRUE)
