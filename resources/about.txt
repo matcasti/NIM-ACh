@@ -58,7 +58,7 @@
 								  <div class="posts">
 								    {insta_feed}
 								  </div>
-								  <script async src="http://www.instagram.com/embed.js"></script>
+								  <script async src="//www.instagram.com/embed.js"></script>
 								</section>
 								
 						</div>
