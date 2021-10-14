@@ -21,9 +21,9 @@ news_generator <- function(news, for_sidebar = TRUE) {
   '
   if (isTRUE(for_sidebar)) {
     glue::glue(sidebar)
-  } else {
+  } else if (isFALSE(for_sidebar)) {
     glue::glue(index_or_news)
-  }
+  } else stop("for_sidebar must be a logical of length one", call. = F)
 }
 
 news <- list(
