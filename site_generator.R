@@ -41,11 +41,11 @@ unlink(x = "_site", recursive = TRUE)
     root <- ""
     
     # Create news for sidebar
-    news_sidebar <- lapply(head(news, n = 3), news_generator, TRUE) |>
+    news_sidebar <- lapply(tail(news, n = 3) |> rev(), news_generator, TRUE) |>
       paste0(collapse = "\n\n")
     
     # Create news for index and news page
-    news_index <- lapply(head(news), news_generator, FALSE) |>
+    news_index <- lapply(tail(news) |> rev(), news_generator, FALSE) |>
       paste0(collapse = "\n\n")
       
     # Create sidebar
@@ -105,7 +105,7 @@ unlink(x = "_site", recursive = TRUE)
   root <- "../"
   
   # Create news for sidebar within news directory
-  news_sidebar <- lapply(head(news, n = 3), news_generator, TRUE) |>
+  news_sidebar <- lapply(tail(news, n = 3) |> rev(), news_generator, TRUE) |>
     paste0(collapse = "\n\n")
   
   # Create new nested sidebar

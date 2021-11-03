@@ -1,0 +1,17 @@
+<section>
+	<header class="main">
+		<h2>{news[[i]]$main}</h2>
+	</header>
+	<span class="image main"><img style="object-fit: cover; height: 30vh;" src="../images/{news[[i]]$img}" alt="" /></span>
+	
+	<p>Es efectivo, la profesora Ruby Mendez, quien ha colaborado de cerca con NIM-ACh, participará del Seminario Colombiano de Actualización en Educación Física, Recreación Y Deportes (2021).</p>
+	<p>Esta actividad es ofrecida por la <a href="https://www.ucundinamarca.edu.co">Universidad de Cundinamarca</a> y tiene como fecha de inicio el 4 de noviembre del 2021.</p>
+	
+	<hr class="major" />
+	
+	<div class="row gtr-50 gtr-uniform">
+		<div class="col-12" ><span class="image fit"><img style="object-fit: scale-down; height: auto; max-width: 100%;" src="../images/news-3-fig-2.jpeg" alt="" /></span></div>
+	</div>
+	
+	<hr class="major" />
+</section>
