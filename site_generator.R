@@ -67,6 +67,9 @@ unlink(x = "_site", recursive = TRUE)
     
     insta_feed <- lapply(head(post_id), insta_feed_generator) |> 
       paste0(collapse = "\n\n")
+    
+    carousel <- readLines("resources/carousel.txt") |> 
+      paste0(collapse = "\n")
 
   ## Create HTML files ------------------------------------------------------------------------
   

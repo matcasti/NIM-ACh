@@ -1,14 +1,12 @@
 
 # Instagram feed builder helper ---------------------------------------------------------------
 
-user <- "nimach_group"
-
-fetch <- menu(choices = c("Yes", "No"), title = "Fetch data from profile?")
+fetch <- 2 # menu(choices = c("Yes", "No"), title = "Fetch data from profile?")
 
 if (fetch == 1) {
   
-  method_1 <- glue::glue("https://www.instagram.com/{user}/channel/?__a=1")
-  method_2 <- glue::glue("https://www.instagram.com/{user}/?__a=1")
+  method_1 <- "https://www.instagram.com/nimach_group/channel/?__a=1"
+  method_2 <- "https://www.instagram.com/nimach_group/?__a=1"
   
   httr::reset_config()
   
