@@ -9,9 +9,18 @@
 	
 	<hr class="major" />
 	
-	<div class="row gtr-50 gtr-uniform">
-		<div class="col-12" ><span class="image fit"><img style="object-fit: scale-down; height: auto; max-width: 100%;" src="../images/news-3-fig-2.jpeg" alt="" /></span></div>
-	</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <figure class="figure">
+          <img src="../images/news-3-fig-2.jpeg" class="figure-img img-fluid rounded" width="100%">
+          <figcaption class="figure-caption">Afiche promocional de la actividad.</figcaption>
+        </figure>
+      </div>
+      <div class="col-3"></div>
+    </div>
+  </div>
 	
 	<hr class="major" />
 </section>

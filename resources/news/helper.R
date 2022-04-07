@@ -60,6 +60,17 @@ news <- list(
     # Only name of file (with file extension)
     img = "news-3-fig-1.png"
   )
+  
+  ## Post 4 ----
+  , list(
+    current = 4,
+    # Title of post
+    main = "NIM-ACh genera docencia en el Magíster de Psicobiología del Desarrollo Humano",
+    # Description of article
+    desc = "El programa del MPBDH tiene como objetivo ofrecer a profesionales de diferentes disciplinas una formación actualizada en aspectos teóricos y metodológicos fundamentales de la psicobiología del desarrollo humano.", 
+    # Only name of file (with file extension)
+    img = "news-4-fig-1.jpeg"
+  )
 )
 
 # Number of current posts

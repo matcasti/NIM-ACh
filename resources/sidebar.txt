@@ -17,17 +17,15 @@
     		<li><a href="{root}index.html">Inicio</a></li>
     		<li><a href="{root}news.html">Noticias</a></li>
     		<li><a href="{root}research.html">Investigación</a></li>
-    		<li><a href="{root}members.html">Equipo</a></li>
-    		<li><a href="{root}about.html">Nosotros</a></li>
-    		<!-- <li>
-    			<span class="opener">Submenu</span>
+  <!---	<li><a href="{root}members.html">Equipo</a></li>
+    		<li><a href="{root}about.html">Nosotros</a></li> --->
+    		<li>
+    			<span class="opener">Nosotros</span>
     			<ul>
-    				<li><a href="#">Lorem Dolor</a></li>
-    				<li><a href="#">Ipsum Adipiscing</a></li>
-    				<li><a href="#">Tempus Magna</a></li>
-    				<li><a href="#">Feugiat Veroeros</a></li>
+    				<li><a href="{root}members.html">Conoce al Equipo</a></li>
+    				<li><a href="{root}about.html">Acerca del grupo</a></li>
     			</ul>
-    		</li> -->
+    		</li>
     	</ul>
     </nav>
     

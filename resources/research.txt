@@ -49,7 +49,17 @@
 											<tbody>
 												<tr>
 													<td>Próximamente</td>
-													<td>Analytic review and meta-analysis of awake prone positioning in patients with Covid-19</td>
+													<td>Effect of confinement on anxiety symptoms and sleep quality in the population residing in southern latitude during COVID-19 pandemic</td>
+													<td style="text-align: center;">🕐</td>
+												</tr>
+												<tr>
+													<td>Próximamente</td>
+													<td>Características clínicas, comorbilidad y variables de laboratorio asociadas a la hospitalización y mortalidad de personas mayores con COVID 19: Una revisión sistemática.</td>
+													<td style="text-align: center;">🕐</td>
+												</tr>
+												<tr>
+													<td>Próximamente</td>
+													<td>Relationship of cardiorespiratory control and vascular compliance in competitive young athletes.</td>
 													<td style="text-align: center;">🕐</td>
 												</tr>
 												<tr>
@@ -58,14 +68,24 @@
 													<td style="text-align: center;">🕐</td>
 												</tr>
 												<tr>
-													<td>Próximamente</td>
-													<td>A 32-day long fieldwork in Antarctica improves heat tolerance during physical exercise</td>
-													<td style="text-align: center;">🕐</td>
+													<td>2022</td>
+													<td>Effects of Olympic Combat Sports on Health-Related Quality of Life in Middle-Aged and Older People: A Systematic Review</td>
+													<td style="text-align: center;"><a href="https://doi.org/10.3389/fpsyg.2021.797537">✅</a></td>
 												</tr>
 												<tr>
-													<td>Próximamente</td>
+													<td>2022</td>
+													<td>A 32-day long fieldwork in Antarctica improves heat tolerance during physical exercise</td>
+													<td style="text-align: center;"><a href="http://dx.doi.org/10.1590/0001-3765202220210593">✅</a></td>
+												</tr>
+												<tr>
+													<td>2022</td>
 													<td>Caracterización funcional de pacientes con parálisis cerebral que viven en la región de Magallanes y la Antártica Chilena</td>
-													<td style="text-align: center;">🕐</td>
+													<td style="text-align: center;"><a href="https://www.researchgate.net/publication/359558620_Caracterizacion_funcional_de_pacientes_con_paralisis_cerebral_que_viven_en_la_region_de_Magallanes_y_la_Antartica_Chilena">✅</a></td>
+												</tr>
+												<tr>
+													<td>2021</td>
+													<td>Analytic review and meta-analysis of awake prone positioning in patients with Covid-19</td>
+													<td style="text-align: center;"><a href="https://doi.org/10.1016/j.medin.2021.11.003">✅</a></td>
 												</tr>
 												<tr>
 													<td>2021</td>

@@ -5,10 +5,23 @@
 	<span class="image main"><img style="object-fit: cover; height: 30vh;" src="../images/news-1-fig-2.png" alt="" /></span>
 	<p>Uno de los objetivos del grupo de investigación <a href="https://sites.icb.ufmg.br/mediantar/">MEDIANTAR</a> es entender las respuestas fisiológicas a los retos que imponen en la Antártida los ambientes ICE: aislados, confinados, fríos y extremos, presentes en campamentos, barcos y estaciones de investigación, como la Estación Antártica Comandante Ferraz.</p>
 	<p>En este contexto, se establecieron acuerdos de colaboración para la campaña antártica 2021-2022 entre Brasil, Perú y Chile.</p>
+	
 	<hr class="major" />
-	<div class="row gtr-50 gtr-uniform">
-		<div class="col-6" ><span class="image fit"><img style="object-fit: cover; height: 30vh;" src="../images/news-1-fig-1.png" alt="" /></span></div>
-		<div class="col-6" ><span class="image fit"><img style="object-fit: cover; height: 30vh;" src="../images/news-1-fig-3.jpg" alt="" /></span></div>
-	</div>
+	
+	<div class="container">
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <img src="../images/news-1-fig-1.png" class="img-fluid rounded" width="100%">
+      </div>
+      <div class="col-1"></div>
+      <div class="col-1"></div>
+      <div class="col-10">
+        <img src="../images/news-1-fig-3.jpg" class="img-fluid rounded" width="100%">
+      </div>
+      <div class="col-1"></div>
+    </div>
+  </div>
+  
 	<hr class="major" />
 </section>
