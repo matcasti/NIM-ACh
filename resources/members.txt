@@ -26,6 +26,8 @@
 										{social_media}
 									</ul>
 								</header>
+								
+							
 
 							<!-- Members -->
 								<section>
@@ -33,61 +35,95 @@
 										<h2>Conoce al equipo</h2>
 									</header>
 									<div class="members">
+									
 										<article>
 											<div class="profile"><img class ="profile" src="images/members/nunez.jpeg" alt="" /></div>
 											<div class="content">
 												<h4><a href="mailto:cristian.nunez@umag.cl">Cristian Núñez Espinosa</a></h4>
-												<p>PhD, Fisiología <br/>
-												Profesor asociado en Escuela de Medicina en la Universidad de Magallanes</p>
+												<p>Investigador principal<br/>
+												PhD, Fisiología <br/>
+												Escuela de Medicina, Universidad de Magallanes</p>
 											</div>
 										</article>
+										
 										<article>
 											<div class="profile"><img class ="profile" src="images/members/retamal.jpeg" alt="" /></div>
 											<div class="content">
 												<h4><a href="mailto:felipe.retamal@umag.cl">Felipe Retamal Matus</a></h4>
-												<p>PhD ©, Fisioterapia <br/>
-												Profesor asociado en el Departamento de Kinesiología en la Universidad de Magallanes</p>
+												<p>Investigador <br/>
+												PhD ©, Fisioterapia <br/>
+												Departamento de Kinesiología, Universidad de Magallanes</p>
 											</div>
 										</article>
+										
 										<article>
 											<div class="profile"><img class ="profile" src="images/members/harris.jpg" alt="" /></div>
 											<div class="content">
 												<h4><a href="mailto:katherine.harris@umag.cl">Katherine Harris King</a></h4>
-												<p>Kinesiología en Ortopedia y Traumatología <br/>
+												<p>Investigadora <br/>
 												Mg. Biomecánica clínica <br/>
-												Profesora asociada en el Departamento de Kinesiología en la Universidad de Magallanes</p>
+												Departamento de Kinesiología, Universidad de Magallanes</p>
 											</div>
 										</article>
+										
 										<article>
 											<div class="profile"><img class ="profile" src="images/members/valeska.jpeg" alt="" /></div>
 											<div class="content">
 												<h4><a href="mailto:valeska.oyarzo@umag.cl">Valeska Oyarzo Igor</a></h4>
-												<p>Lic. Fonoaudiología<br/>
-												Profesora asociada en la Universidad de Magallanes </p>
+												<p>Investigadora <br/>
+												Lic. Fonoaudiología<br/>
+												Departamento de Kinesiología, Universidad de Magallanes </p>
 											</div>
 										</article>
+										
 										<article>
 											<div class="profile"><img class ="profile" src="images/members/castillo.jpeg" alt="" /></div>
 											<div class="content">
 												<h4><a href="mailto:matcasti@umag.cl">Matías Castillo Aguilar</a></h4>
-												<p>Estudiante de Kinesiología en la Universidad de Magallanes</p>
+												<p>Estudiante de Kinesiología, Universidad de Magallanes</p>
 											</div>
 										</article>
+										
 										<article>
 											<div class="profile"><img class ="profile" src="images/members/caren.jpeg" alt="" /></div>
 											<div class="content">
 												<h4><a href="mailto:caren.ccaa@gmail.com">Caren Alvarado Aravena</a></h4>
-												<p>Estudiante de Medicina en la Universidad de Magallanes</p>
+												<p>Estudiante de Medicina, Universidad de Magallanes</p>
 											</div>
 										</article>
+										
 										<article>
 											<div class="profile"><img class ="profile" src="images/members/riquelme.jpeg" alt="" /></div>
 											<div class="content">
 												<h4><a href="mailto:matiriqu@umag.cl">Matías Riquelme Ortega</a></h4>
-												<p>Lic. Medicina<br/>
-												Estudiante de Medicina en la Universidad de Magallanes</p>
+												<p>Estudiante de Medicina, Universidad de Magallanes</p>
 											</div>
 										</article>
+										
+										<article>
+											<div class="profile"><img class ="profile" src="images/members/pia-carrasco.png" alt="" /></div>
+											<div class="content">
+												<h4><a href="mailto:picarras@umag.cl">Pía Carrasco</a></h4>
+												<p>Estudiante de Medicina, Universidad de Magallanes</p>
+											</div>
+										</article>
+										
+										<article>
+											<div class="profile"><img class ="profile" src="images/members/username.png" alt="" /></div>
+											<div class="content">
+												<h4><a href="mailto:dmabe@umag.cl">Diego Mabe Castro</a></h4>
+												<p>Estudiante de Kinesiología, Universidad de Magallanes</p>
+											</div>
+										</article>
+										
+										<article>
+											<div class="profile"><img class ="profile" src="images/members/username.png" alt="" /></div>
+											<div class="content">
+												<h4><a href="mailto:mmabe@umag.cl">Matías Mabe Castro</a></h4>
+												<p>Estudiante de Medicina, Universidad de Magallanes</p>
+											</div>
+										</article>
+										
 									</div>
 								</section>
 								
