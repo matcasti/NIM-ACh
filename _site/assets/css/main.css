@@ -1786,15 +1786,16 @@ button,
       -ms-align-items: center;
       align-items: center;
       padding-bottom: 2rem;
-      padding-top: 1rem;
-      border-bottom: 1px solid #999; }
+      padding-top: 1rem;}
       .members article:last-child {
         border-bottom: none;
       }
     .members article .profile {
       height: 15rem;
-      width: 100%;
+      width: 15rem;
       margin-bottom: 2em;
+      margin-right: 0.5em;
+      margin-left: 0.5em;
       border-radius: 0.375em;; } }
 
 /* Posts */
