@@ -1762,7 +1762,7 @@ button,
         margin-bottom: 0; }
   @media screen and (max-width: 810px) {
     .members {
-      margin-left: 2em;
+      margin-left: 0;
       margin-bottom: 2em;
       width: 85%; }
       .members article {
@@ -1778,6 +1778,9 @@ button,
           height: 8em;
           width: 8em; } }
   @media screen and (max-width: 480px) {
+    .members {
+      margin-left: 2em;
+    }
     .members article {
       -moz-flex-direction: column;
       -webkit-flex-direction: column;
