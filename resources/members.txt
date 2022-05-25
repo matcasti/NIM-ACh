@@ -34,6 +34,10 @@
 									<header class="major">
 										<h2>Conoce al equipo</h2>
 									</header>
+									<ul class="actions">
+											<li><a href="project.html" class="button big">Proyectos</a></li>
+											<li><a href="about.html" class="button big">Acerca de NIM-ACh</a></li>
+										</ul>
 									<div class="members">
 									
 										<article>

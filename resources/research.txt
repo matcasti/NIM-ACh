@@ -34,9 +34,12 @@
 									<header class="major">
 										<h2>Publicaciones</h2>
 									</header>
+									<ul class="actions">
+											<li><a href="project.html" class="button big">Proyectos</a></li>
+											<li><a href="members.html" class="button big">Conoce al equipo</a></li>
+									</ul>
 									<p>A continuación, encontrará el trabajo realizado por nuestro equipo, tanto en papel protagonista como en colaboración.</p>
 									<p>✅ Publicados, si se hace click lleva a la publicación.<br>🕐 Aceptados y en prensa, próximos a ser publicados.</p>
-									
 									<div class="table-wrapper">
 										<table>
 											<thead>

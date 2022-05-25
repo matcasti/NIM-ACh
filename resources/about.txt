@@ -33,6 +33,10 @@
 										<h2>Quienes somos</h2>
 									</header>
 									<p>Los grandes avances de la ciencia no se deben al mérito individual, sino al trabajo en colaboración de científicos y personas capacitadas de todos los rincones del mundo. Así, en nuestras líneas de investigación trabajamos codo a codo con diversos equipos a lo largo del mundo.</p>
+									<ul class="actions">
+											<li><a href="project.html" class="button big">Proyectos</a></li>
+											<li><a href="members.html" class="button big">Conoce al equipo</a></li>
+									</ul>
 									<div class="posts">
 									  <article>
     									<div id="map" style="width: 100%;">

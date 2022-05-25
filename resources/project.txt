@@ -33,6 +33,10 @@
 											<h2>Proyectos de investigación</h2>
 										</header>
 										<p>A continuación se pueden apreciar los proyectos de investigación en desarrollo, los próximos, así como los detalles involucrados a la ejecución de estos.</p>
+									  <ul class="actions">
+											<li><a href="research.html#Research" class="button big">Publicaciones</a></li>
+											<li><a href="members.html" class="button big">Conoce al equipo</a></li>
+										</ul>
 									</div>
 								</section>
 

@@ -36,8 +36,8 @@
 										</header>
 										<p>Junto con nuestro equipo, hemos realizado múltiples estudios científicos, destinados a responder a preguntas relacionadas con nuestras líneas de investigación. A continuación puede ver nuestros trabajos publicados o el equipo que los ha realizado.</p>
 										<ul class="actions">
-											<li><a href="research.html#Research" class="button big">Publicaciones</a></li>
-											<li><a href="about.html" class="button big">Nosotros</a></li>
+											<li><a href="project.html" class="button big">Proyectos</a></li>
+											<li><a href="about.html" class="button big">Acerca de NIM-ACh</a></li>
 										</ul>
 									</div>
 									<span class="image object">
