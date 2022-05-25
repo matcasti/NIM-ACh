@@ -123,9 +123,10 @@
 												<p>Estudiante de Medicina, Universidad de Magallanes</p>
 											</div>
 										</article>
-										
 									</div>
 								</section>
+										
+								{colaboration}
 								
 						</div>
 					</div>

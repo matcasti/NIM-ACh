@@ -210,10 +210,9 @@
 											</tbody>
 										</table>
 									</div>
-										
-										
-									
 								</section>
+								
+								{colaboration}
 
 						</div>
 					</div>

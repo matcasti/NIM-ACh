@@ -70,6 +70,9 @@ unlink(x = "_site", recursive = TRUE)
     
     carousel <- readLines("resources/carousel.txt") |> 
       paste0(collapse = "\n")
+    
+    colaboration <- readLines("resources/colaboration.txt") |> 
+      paste0(collapse = "\n")
 
   ## Create HTML files ------------------------------------------------------------------------
   
@@ -90,6 +93,12 @@ unlink(x = "_site", recursive = TRUE)
       paste0(collapse = "\n") |>
       glue::glue() |>
       cat(file = "_site/research.html")
+    
+    # Create PROJECT page
+    readLines("resources/project.txt") |>
+      paste0(collapse = "\n") |>
+      glue::glue() |>
+      cat(file = "_site/project.html")
     
     # Create MEMBERS page
     readLines("resources/members.txt") |>
