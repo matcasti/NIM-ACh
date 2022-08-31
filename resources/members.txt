@@ -61,16 +61,6 @@
 										</article>
 										
 										<article>
-											<div class="profile"><img class ="profile" src="images/members/retamal.jpeg" alt="" /></div>
-											<div class="content">
-												<h4><a href="mailto:felipe.retamal@umag.cl">Felipe Retamal Matus</a></h4>
-												<p>Investigador <br/>
-												PhD ©, Fisioterapia <br/>
-												Departamento de Kinesiología, Universidad de Magallanes</p>
-											</div>
-										</article>
-										
-										<article>
 											<div class="profile"><img class ="profile" src="images/members/harris.jpg" alt="" /></div>
 											<div class="content">
 												<h4><a href="mailto:katherine.harris@umag.cl">Katherine Harris King</a></h4>
