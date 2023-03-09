@@ -56,7 +56,7 @@ Universidad de Magallanes
 :::
 
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/matias-castillo.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<img src="images/people/p/matias-castillo.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
 <strong>Matías Castillo-Aguilar</strong>
 <p class="card-text">Analista de datos</p>
