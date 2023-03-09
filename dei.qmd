@@ -9,11 +9,13 @@ toc: false
 Diversidad, Equidad e Inclusión
 :::
 
+<br>
+
 ::: {.grid .column-page .gap-3}
-::: {.g-col-4}
+::: {.g-col-12 .g-col-md-4}
 [Declaración Pública]{style="font-size: 1.5rem"}
 :::
-::: {.g-col-8}
+::: {.g-col-12 .g-col-md-8}
 En NIM-ACh estamos comprometidos con la investigación básica y el desarrollo de nuevas técnicas al servicio de la humanidad. Nuestros esfuerzos se ven respaldados por un entorno de trabajo diverso e integrador. Acogemos a investigadores de todas las razas, etnias, orientaciones sexuales, identidades de género y capacidades. Fomentamos un espacio abierto en el que podamos aprender unos de otros y actuar para abordar y cuestionar las desigualdades del sistema en la ciencia.
 :::
 :::

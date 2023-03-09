@@ -7,7 +7,9 @@ project:
 website:
   favicon: "logos/logo.png"
   twitter-card: true
-  open-graph: true
+  open-graph:
+    locale: es_ES
+    site-name: NIM-ACh
   page-footer: 
     border: false
     left: "© 2023 NIM-ACh Group"

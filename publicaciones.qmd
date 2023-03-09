@@ -6,7 +6,7 @@ toc: false
 <div id="homeCarousel" class="carousel slide carousel-fade subnavbar-image column-screen" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <video class="img-carousel" autoplay loop muted>
+      <video class="img-carousel" autoplay loop muted poster="images/research/poster.jpg">
         <source src="images/research/carousel.mp4" type="video/mp4">
       </video>
     </div>
