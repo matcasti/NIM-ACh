@@ -2,6 +2,7 @@ project:
   type: website
   resources: 
     - CNAME
+    - images
   
 website:
   favicon: "logos/logo.png"
