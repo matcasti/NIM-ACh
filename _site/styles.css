@@ -1,0 +1,123 @@
+/* css styles */
+
+html {
+    overscroll-behavior: none;
+}
+
+hr {
+    margin-left: 17px !important;
+    margin-right: 17px !important;
+    background-color: black;
+    opacity: 1;
+    box-sizing: content-box;
+}
+
+.img-carousel {
+    height: 101vh; 
+    width:101vw; 
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.navbar-logo {
+    max-height: 65px;
+    width: auto;
+    padding-right: 4px;
+}
+
+.navbar {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.navbar-dark {
+    background-color: rgb(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+}
+
+.subnavbar-image {
+    background-color: black;
+    position: relative;
+    min-height: 101vh;
+    top: -124px;
+}
+
+.subnavbar {
+    position: relative;
+    top: 0;
+    height: 0;
+}
+
+.research-tab-pane {
+    height: calc(70vh - 65px);
+}
+
+@media screen and (min-width: 992px) {
+    .dei-home {
+        margin-top: -124px !important
+    }
+    .subnavbar-image {
+        top: -134px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+    
+    .dei-home {
+        margin-top: -9px !important
+    }
+    
+    .subnavbar-image {
+        top: -20px;
+    }
+    
+    .subnavbar {
+        height: 115px;
+    }
+    
+    .research-tab-pane {
+        height: calc(70vh - 65px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-logo {
+        max-height: 30px;
+    }
+    
+    .navbar {
+        padding-top: .8em;
+        padding-bottom: .8em;
+    }
+    
+    .research-tab-pane {
+        height: calc(70vh - 30px);
+    }
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 1rem;
+}
+
+.news-home {
+    margin-left: 7rem !important;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(var(--bs-rows, 1), 1fr);
+    grid-template-columns: repeat(var(--bs-columns, 12), 1fr);
+    gap: var(--bs-gap, 1rem);
+}

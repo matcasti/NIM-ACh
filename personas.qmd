@@ -1,0 +1,301 @@
+---
+toc: false
+---
+
+```{=html}
+<div id="homeCarousel" class="carousel slide carousel-fade subnavbar-image column-screen" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="img-carousel" src="images/people/carousel.mp4">
+    </div>
+  </div>
+  <div class="text-light position-absolute top-50 translate-middle-y px-5" style="z-index:5;">
+    <div class="display-5">Conoce al equipo</div>
+    <br>
+    <a class="btn btn-light" href="dei.html" role="button">Explora nuestros compromisos por la diversidad</a>
+  </div>
+</div> 
+```
+
+::: {.grid .column-page .pt-5 .pt-sm-4 .pt-md-4 .pt-lg-0}
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-4 .m-auto}
+![](images/people/p/cris-nunez.jpeg){.img-fluid .rounded style="height:15rem; width:12rem; object-fit:cover;"}
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-8 .g-col-lg-8 .m-auto}
+[Cristian Núñez Espinosa, PhD]{.display-6}
+
+Investigador principal NIM-ACh\
+Profesor de fisiología humana\
+Profesor asociado en la Escuela de Medicina\
+Universidad de Magallanes
+
+[![](images/icons/linkedin.png){width="30px" height="30px"}](https://www.linkedin.com/in/cristian-n%C3%BA%C3%B1ez-espinosa-5a143349/)
+[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Cristian-Nunez-Espinosa)
+[![](images/icons/orcid.png){width="30px" height="30px"}](https://orcid.org/0000-0002-9896-7062)
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:cristian.nunez\@umag.cl)
+:::
+:::
+
+<br>
+
+::: {.display-5}
+[Staff]{#staff}
+:::
+
+::: {.grid .mx-auto}
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/valeska-villegas.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Valeska Villegas</strong>
+<p class="card-text">Coordinadora de grupo</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:valeska.oyarzo\@umag.cl)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/matias-castillo.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Matías Castillo-Aguilar</strong>
+<p class="card-text">Analista de datos</p>
+[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Matias-Castillo-Aguilar)
+[![](images/icons/orcid.png){width="30px" height="30px"}](https://orcid.org/0000-0001-7291-247X)
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:matcasti\@umag.cl)
+</div>
+:::
+:::
+
+<br>
+
+::: {.display-5}
+[Investigadores asociados]{#researchers}
+:::
+
+::: {.grid .mx-auto}
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/claudia-estrada.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Caludia Estrada Goic</strong>
+<p class="card-text">PhD, Psicología</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:claudia.estrada\@umag.cl)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/katherine-harris.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Katherine Harris King</strong>
+<p class="card-text">Kinesióloga</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:katherine.harris\@umag.cl)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/sergio-cares.png" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Sergio Cares Barrientos</strong>
+<p class="card-text">Kinesiólogo</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:sergio.cares\@umag.cl)
+</div>
+:::
+:::
+
+<br>
+
+::: {.display-5}
+[Estudiantes de Posgrado]{#postgraduates}
+:::
+
+::: {.grid .mx-auto}
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/leyla-huirimilla.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Leyla Huirimilla</strong>
+<p class="card-text">Psicóloga</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:leylahuirimilla\@gmail.com)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Roberto Herrera</strong>
+<p class="card-text">Psicólogo</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:r.herrera.avila\@gmail.com)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>José Miguel Rubina</strong>
+<p class="card-text">Psicólogo</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:josemiguel.rubina\@gmail.com)
+</div>
+:::
+:::
+
+<br>
+
+::: {.display-5}
+[Profesionales]{#professionals}
+:::
+
+::: {.grid .mx-auto}
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Gabriel Chinga</strong>
+<p class="card-text">Kinesiólogo</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:gchinga\@umag.cl)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Javiera Gonzales</strong>
+<p class="card-text">Kinesióloga</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:gnzl.javiera\@gmail.com)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/valeska-oyarzo.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Valeska Oyarzo Igor</strong>
+<p class="card-text">Fonoaudióloga</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:valeska.oyarzo\@umag.cl)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/jonathan-henriquez.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Jonathan Henríquez Lühr</strong>
+<p class="card-text">Psicólogo</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:jonathan.henriquez\@umag.cl)
+</div>
+:::
+:::
+
+<br>
+
+::: {.display-5}
+[Estudiantes de Pregrado]{#undergrads}
+:::
+
+::: {.grid .mx-auto}
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/matias-mabe.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Matías Mabe Castro</strong>
+<p class="card-text">Estudiante de Medicina (UMAG)</p>
+[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Matias-Mabe)
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:mmabe\@umag.cl)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/diego-mabe.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Diego Mabe Castro</strong>
+<p class="card-text">Estudiante de Kinesiología (UMAG)</p>
+[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Diego-Mabe-Castro)
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:dmabe\@umag.cl)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/pia-carrasco.png" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Pia Carrasco</strong>
+<p class="card-text">Estudiante de Medicina (UMAG)</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:picarras\@umag.cl)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/caren-alvarado.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Caren Alvarado Aravena</strong>
+<p class="card-text">Interna de Medicina (UMAG)</p>
+[![](images/icons/linkedin.png){width="30px" height="30px"}](https://cl.linkedin.com/in/caren-alvarado-aravena-a07712218)
+[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Caren-Alvarado-Aravena)
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:caren.ccaa\@gmail.com)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/matias-riquelme.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Matías Riquelme Ortega</strong>
+<p class="card-text">Interno de Medicina (UMAG)</p>
+[![](images/icons/linkedin.png){width="30px" height="30px"}]()
+[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Matias-Riquelme-Ortega)
+[![](images/icons/orcid.png){width="30px" height="30px"}](https://orcid.org/0000-0001-6410-9265)
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:matiriqu\@umag.cl)
+</div>
+:::
+:::
+
+<br>
+
+::: {.display-5}
+[Nimichianos]{#nimachians}
+:::
+
+::: {.grid .mx-auto}
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/panchi.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Panchi</strong>
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/luna.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Luna</strong>
+</div>
+:::
+:::
+
+<br>
+
+<hr class="column-screen-inset">
+
+<br>
+
+```{=html}
+<div class="grid column-screen-inset" style="--bs-columns: 4; margin-left: 17px !important; margin-right: 17px !important;">
+  <div class="g-col-4 g-col-md-1">
+    <div>
+    <strong>Dirección</strong>:<br>
+    <br>
+    Edificio CADI-UMAG<br>
+    Av. los Flamencos 01364<br>
+    Punta Arenas, Chile<br>
+    </div>
+  </div>
+  
+  <div class="g-col-4 g-col-md-3">
+  <strong>Colaboradores:</strong>
+  <br>
+  <br>
+    <div class="grid justify-content-center mx-auto gap-2" style="--bs-columns: 12; --bs-rows: 2;">
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/mediantar.png" style="max-height: 8em; width: auto;">
+      </div>
+      
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/habitat.png" style="max-height: 8em; width: auto;">
+      </div>
+      
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/cies.png" style="max-height: 8em; width: auto;">
+      </div>
+    </div>
+  </div>
+</div>
+```

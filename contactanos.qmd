@@ -1,0 +1,70 @@
+---
+toc: false
+---
+
+::: subnavbar
+:::
+
+::: {.display-5 .column-page}
+Contáctanos
+:::
+
+::: {.grid .column-page .gap-3}
+::: {.g-col-6}
+[Investigador Principal]{style="font-size: 1.5rem"}
+:::
+::: {.g-col-6}
+[Cristian Núñez Espinosa]{style="font-size: 1.5rem"}
+
+Email: [cristian.nunez\@umag.cl](mailto:cristian.nunez\@umag.cl)\
+Teléfono: (+56) 61 2 201411
+:::
+
+::: {.g-col-6}
+[Coordinadora de Grupo]{style="font-size: 1.5rem"}
+:::
+::: {.g-col-6}
+[Valeska Villegas]{style="font-size: 1.5rem"}
+
+Email: [valeska.oyarzo\@umag.cl](mailto:valeska.oyarzo\@umag.cl)\
+:::
+:::
+
+<br>
+
+<hr class="column-screen-inset">
+
+<br>
+
+```{=html}
+<div class="grid column-screen-inset" style="--bs-columns: 4; margin-left: 17px !important; margin-right: 17px !important;">
+  <div class="g-col-4 g-col-md-1">
+    <div>
+    <strong>Dirección</strong>:<br>
+    <br>
+    Edificio CADI-UMAG<br>
+    Av. los Flamencos 01364<br>
+    Punta Arenas, Chile<br>
+    </div>
+  </div>
+  
+  <div class="g-col-4 g-col-md-3">
+  <strong>Colaboradores:</strong>
+  <br>
+  <br>
+    <div class="grid justify-content-center mx-auto gap-2" style="--bs-columns: 12; --bs-rows: 2;">
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/mediantar.png" style="max-height: 8em; width: auto;">
+      </div>
+      
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/habitat.png" style="max-height: 8em; width: auto;">
+      </div>
+      
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/cies.png" style="max-height: 8em; width: auto;">
+      </div>
+    </div>
+  </div>
+</div>
+```

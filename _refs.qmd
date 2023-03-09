@@ -1,0 +1,7 @@
+---
+bibliography: _refs.bib
+csl: vancouver.csl
+nocite: |
+  @*
+---
+
