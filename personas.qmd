@@ -244,7 +244,7 @@ Universidad de Magallanes
 <br>
 
 ::: {.display-5}
-[Nimichianos]{#nimachians}
+[NIM-AChinos]{#nimachians}
 :::
 
 ::: {.grid .mx-auto}
