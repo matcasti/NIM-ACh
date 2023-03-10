@@ -1,0 +1,114 @@
+---
+toc: false
+---
+
+```{=html}
+<div id="homeCarousel" class="carousel slide carousel-fade subnavbar-image column-screen" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video class="img-carousel" autoplay loop muted poster="images/research/poster-2.jpg">
+        <source src="images/research/carousel-2.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="text-light position-absolute top-50 translate-middle-y px-5" style="z-index:5;">
+    <div class="display-5">Lineamientos de investigación</div>
+    <br>
+    <a class="btn btn-light" href="publicaciones.html" role="button">Explora nuestras publicaciones</a>
+  </div>
+</div> 
+```
+
+::: {.grid .column-page .gap-3}
+<!--- --->
+<!--- --->
+::: {.g-col-12 .g-col-md-4}
+[Nuestros intereses]{style="font-size: 1.5rem"}
+:::
+::: {.g-col-12 .g-col-md-8}
+En un mundo cada vez más cambiante, la adaptación es crucial para sobrevivir y prosperar. Como seres humanos, necesitamos ajustarnos constantemente a nuestro entorno para alcanzar la eficiencia necesaria para vivir una vida plena. El sistema nervioso es vital para este proceso y el grupo de investigación se enfoca en comprender las variables que promueven la mejor adaptación durante el desarrollo humano.
+:::
+<!--- --->
+::: {.g-col-12 .g-col-md-4}
+[Líneas de investigación]{style="font-size: 1.5rem"}
+:::
+::: {.g-col-12 .g-col-md-8}
+Nuestro grupo de investigación tiene como objetivo utilizar la neuromodulación como herramienta de evaluación para identificar y mejorar las capacidades psicofisiológicas de deportistas, adultos mayores y personas que viven en climas extremos. 
+
+Nuestra investigación busca prevenir enfermedades y lesiones, mejorar el rendimiento y optimizar la calidad de vida de estas poblaciones mediante la identificación de áreas específicas que necesiten ser tratadas. 
+
+A través de nuestro enfoque innovador, esperamos proporcionar información valiosa y fomentar el desarrollo de intervenciones basadas en neuromodulación que puedan ser aplicadas en un amplio rango de situaciones. ¡Únete a nuestro equipo y ayúdanos a mejorar la salud y el rendimiento de las personas en todo el mundo!
+:::
+<!--- --->
+<!--- --->
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+```{=html}
+<div class="card">
+  <img src="images/research/exercise.jpeg" class="card-img-top" style="height: 15rem; object-fit: cover;">
+  <div class="card-body">
+    <h5 class="card-title">Neuromodulación a través del ejercicio</h5>
+  </div>
+</div>
+```
+:::
+::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+```{=html}
+<div class="card">
+  <img src="images/research/extremecold.jpg" class="card-img-top" style="height: 15rem; object-fit: cover;">
+  <div class="card-body">
+    <h5 class="card-title">Adaptacion neurofisiologica en ambientes extremos</h5>
+  </div>
+</div>
+```
+:::
+::: {.g-col-12 .g-col-lg-4}
+```{=html}
+<div class="card">
+  <img src="images/research/aging.jpeg" class="card-img-top" style="height: 15rem; object-fit: cover;">
+  <div class="card-body">
+    <h5 class="card-title">Neuromodulación en personas mayores</h5>
+  </div>
+</div>
+```
+:::
+<!--- --->
+:::
+
+<br>
+
+<hr class="column-screen-inset">
+
+<br>
+
+```{=html}
+<div class="grid column-screen-inset" style="--bs-columns: 4; margin-left: 17px !important; margin-right: 17px !important;">
+  <div class="g-col-4 g-col-md-1">
+    <div>
+    <strong>Dirección</strong>:<br>
+    <br>
+    Edificio CADI-UMAG<br>
+    Av. los Flamencos 01364<br>
+    Punta Arenas, Chile<br>
+    </div>
+  </div>
+  
+  <div class="g-col-4 g-col-md-3">
+  <strong>Colaboradores:</strong>
+  <br>
+  <br>
+    <div class="grid justify-content-center mx-auto gap-2" style="--bs-columns: 12; --bs-rows: 2;">
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/mediantar.png" style="max-height: 8em; width: auto;">
+      </div>
+      
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/habitat.png" style="max-height: 8em; width: auto;">
+      </div>
+      
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/cies.png" style="max-height: 8em; width: auto;">
+      </div>
+    </div>
+  </div>
+</div>
+```

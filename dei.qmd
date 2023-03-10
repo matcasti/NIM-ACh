@@ -1,0 +1,60 @@
+---
+toc: false
+---
+
+::: subnavbar
+:::
+
+::: {.display-5 .column-page}
+Diversidad, Equidad e Inclusión
+:::
+
+<br>
+
+::: {.grid .column-page .gap-3}
+::: {.g-col-12 .g-col-md-4}
+[Declaración Pública]{style="font-size: 1.5rem"}
+:::
+::: {.g-col-12 .g-col-md-8}
+En NIM-ACh estamos comprometidos con la investigación básica y el desarrollo de nuevas técnicas al servicio de la humanidad. Nuestros esfuerzos se ven respaldados por un entorno de trabajo diverso e integrador. Acogemos a investigadores de todas las razas, etnias, orientaciones sexuales, identidades de género y capacidades. Fomentamos un espacio abierto en el que podamos aprender unos de otros y actuar para abordar y cuestionar las desigualdades del sistema en la ciencia.
+:::
+:::
+
+<br>
+
+<hr class="column-screen-inset">
+
+<br>
+
+```{=html}
+<div class="grid column-screen-inset" style="--bs-columns: 4; margin-left: 17px !important; margin-right: 17px !important;">
+  <div class="g-col-4 g-col-md-1">
+    <div>
+    <strong>Dirección</strong>:<br>
+    <br>
+    Edificio CADI-UMAG<br>
+    Av. los Flamencos 01364<br>
+    Punta Arenas, Chile<br>
+    </div>
+  </div>
+  
+  <div class="g-col-4 g-col-md-3">
+  <strong>Colaboradores:</strong>
+  <br>
+  <br>
+    <div class="grid justify-content-center mx-auto gap-2" style="--bs-columns: 12; --bs-rows: 2;">
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/mediantar.png" style="max-height: 8em; width: auto;">
+      </div>
+      
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/habitat.png" style="max-height: 8em; width: auto;">
+      </div>
+      
+      <div class="g-col-12 g-col-sm-4 my-auto mx-auto">
+        <img src="images/partners/cies.png" style="max-height: 8em; width: auto;">
+      </div>
+    </div>
+  </div>
+</div>
+```

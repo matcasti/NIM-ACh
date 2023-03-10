@@ -1,0 +1,52 @@
+project:
+  type: website
+  resources: 
+    - CNAME
+    - images
+  
+website:
+  favicon: "logos/logo.png"
+  twitter-card: true
+  open-graph:
+    locale: es_ES
+    site-name: NIM-ACh
+  page-footer: 
+    border: false
+    left: "© 2023 NIM-ACh Group"
+    right: 
+      - icon: github
+        href: https://github.com/NIM-ACh
+      - icon: twitter 
+        href: https://twitter.com/nimach_group
+      - icon: instagram 
+        href: https://www.instagram.com/nimach_group/
+      - icon: fa-brands fa-researchgate
+        href: https://www.researchgate.net/lab/Austral-Integrative-Neurophysiology-Group-Cristian-Nunez-Espinosa/
+  navbar:
+    logo: "logos/navbar.png"
+    search: true
+    right:
+      - href: investigacion.qmd
+        text: "Investigación"
+      - href: personas.qmd
+        text: Personas
+      - href: publicaciones.qmd
+        text: "Publicaciones"
+      - href: dei.qmd
+        text: DEI
+      # - href: "#"
+      #   text: Más
+      - href: contactanos.qmd
+        text: Contáctanos
+
+format:
+  html:
+    anchor-sections: true
+    theme:
+      light: flatly
+    css: styles.css
+    toc: true
+
+lang: es
+
+editor: source
