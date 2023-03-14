@@ -1,5 +1,6 @@
 ---
 toc: false
+title: "Personas"
 ---
 
 ```{=html}
@@ -14,7 +15,7 @@ toc: false
   <div class="text-light position-absolute top-50 translate-middle-y px-5" style="z-index:5;">
     <div class="display-5">Conoce al equipo</div>
     <br>
-    <a class="btn btn-light" href="dei.html" role="button">Explora nuestros compromisos por la diversidad</a>
+    <a class="btn btn-light" href="dei.html" role="button">Descubre nuestros compromisos por la diversidad</a>
   </div>
 </div> 
 ```

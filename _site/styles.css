@@ -3,7 +3,6 @@
 html {
     overscroll-behavior: none;
 }
-
 hr {
     margin-left: 17px !important;
     margin-right: 17px !important;
@@ -11,6 +10,17 @@ hr {
     opacity: 1;
     box-sizing: content-box;
 }
+
+
+/* Suprimir los titulos por defectos */
+.quarto-title-block {
+    display: none !important;
+}
+
+.navbar-brand > span.navbar-title {
+  display: none !important
+}
+
 
 .img-carousel {
     height: 101vh; 

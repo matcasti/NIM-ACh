@@ -5,6 +5,7 @@ project:
     - images
   
 website:
+  title: "NIM-ACh"
   favicon: "logos/logo.png"
   twitter-card: true
   open-graph:
@@ -26,18 +27,16 @@ website:
     logo: "logos/navbar.png"
     search: true
     right:
-      - href: investigacion.qmd
+      - file: investigacion.qmd
         text: "Investigación"
-      - href: personas.qmd
-        text: Personas
-      - href: publicaciones.qmd
+      - file: personas.qmd
+        text: "Personas"
+      - file: publicaciones.qmd
         text: "Publicaciones"
-      - href: dei.qmd
-        text: DEI
-      # - href: "#"
-      #   text: Más
-      - href: contactanos.qmd
-        text: Contáctanos
+      - file: dei.qmd
+        text: "DEI"
+      - file: contactanos.qmd
+        text: "Contáctanos"
 
 format:
   html:
