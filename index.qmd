@@ -65,13 +65,21 @@ title: "Inicio"
 :::
 
 ::: {.g-col-6 .g-col-sm-4 .g-start-sm-2}
-**Mar 2023** --- Se integran al NIM-ACh: Leyla, Jonathan y Pedro. ¡Bienvenidos!
+## 2023
 
-**Ene 2023** --- El doctor Cristian Núñez viaja a Brasil a fortalecer las redes de colaboración científica internacional. ¡Buen viaje!
+**Abril** --- Comienzan nuevas investigaciones en personas mayores que vinculan el ejercicio, mindfulness y el retraso del deterioro cognitivo.
 
-**Ene 2023** --- El equipo de NIM-ACh se reune para conmemorar un exitoso 2022 y proyectar un ambicioso 2023.
+**Marzo** --- Se integran al equipo: Leyla, Jonathan y Pedro. ¡Bienvenidos!
 
-**Abr 2022** --- comienza el proyecto Fondecyt Iniciación estudiando los efectos de la luz estacional en personas mayores.
+**Febrero** --- Se proyecta la visita de nuestros colaboradores de MEDIANTAR para fines de este año.
+
+**Enero** --- El doctor Cristian Núñez viaja a Brasil a fortalecer las redes de colaboración científica internacional. ¡Buen viaje!
+
+**Enero** --- El equipo de NIM-ACh se reune para conmemorar un exitoso 2022 y proyectar un ambicioso 2023.
+
+## 2022
+
+**Abril** --- Comienza el proyecto Fondecyt Iniciación estudiando los efectos de la luz estacional en personas mayores.
 :::
 ::::
 
