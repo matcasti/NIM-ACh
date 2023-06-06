@@ -77,6 +77,8 @@ title: "Inicio"
 ::: {.g-col-6 .g-col-sm-4 .g-start-sm-2}
 ## 2023
 
+**Mayo** --- Comienza un nuevo año de proyecto Fondecyt con evaluación de deportistas y mindfulness en personas mayores.
+
 **Abril** --- Comienzan nuevas investigaciones en personas mayores que vinculan el ejercicio, mindfulness y el retraso del deterioro cognitivo.
 
 **Marzo** --- Se integran al equipo: Leyla, Jonathan y Pedro. ¡Bienvenidos!
