@@ -22,7 +22,7 @@ title: "Personas"
 
 ::: {.grid .column-page .pt-5 .pt-sm-4 .pt-md-4 .pt-lg-0}
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4 .g-col-lg-4 .m-auto}
-![](images/people/p/cris-nunez.jpeg){.img-fluid .rounded style="height:15rem; width:12rem; object-fit:cover;"}
+![](images/people/p/cris-nunez.jpg){.img-fluid .rounded style="height:15rem; width:12rem; object-fit:cover;"}
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-8 .g-col-lg-8 .m-auto}
@@ -85,11 +85,27 @@ Universidad de Magallanes
 :::
 
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/sergio-cares.png" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<img src="images/people/p/sergio-cares.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
 <strong>Sergio Cares Barrientos</strong>
 <p class="card-text">Kinesiólogo</p>
 [![](images/icons/mail.png){width="30px" height="30px"}](mailto:sergio.cares\@umag.cl)
+</div>
+:::
+:::
+
+<br>
+
+::: {.display-5}
+[Estudiantes de doctorado]{#doctorates}
+:::
+
+::: {.grid .mx-auto}
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Wolfrang Henriquez</strong>
+<p class="card-text">PhD ©, Ciencias (UMAG)</p>
 </div>
 :::
 :::
@@ -102,7 +118,16 @@ Universidad de Magallanes
 
 ::: {.grid .mx-auto}
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/leyla-huirimilla.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Karen Tobar</strong>
+<p class="card-text">Psicóloga</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:tobar_karen\@hotmail.com)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/leyla-huirimilla.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
 <strong>Leyla Huirimilla</strong>
 <p class="card-text">Psicóloga</p>
@@ -137,7 +162,7 @@ Universidad de Magallanes
 
 ::: {.grid .mx-auto}
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/valeska-villegas.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<img src="images/people/p/valeska-villegas.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
 <strong>Valeska Villegas</strong>
 <p class="card-text">Kinesióloga</p>
@@ -146,7 +171,7 @@ Universidad de Magallanes
 :::
 
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<img src="images/people/p/gabriel-chinga.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
 <strong>Gabriel Chinga</strong>
 <p class="card-text">Kinesiólogo</p>
@@ -155,16 +180,16 @@ Universidad de Magallanes
 :::
 
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<img src="images/people/p/javiera-gonzalez.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
-<strong>Javiera Gonzales</strong>
+<strong>Javiera Gonzalez</strong>
 <p class="card-text">Kinesióloga</p>
 [![](images/icons/mail.png){width="30px" height="30px"}](mailto:gnzl.javiera\@gmail.com)
 </div>
 :::
 
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/valeska-oyarzo.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<img src="images/people/p/valeska-oyarzo.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
 <strong>Valeska Oyarzo Igor</strong>
 <p class="card-text">Fonoaudióloga</p>
@@ -173,11 +198,20 @@ Universidad de Magallanes
 :::
 
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/jonathan-henriquez.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<img src="images/people/p/jonathan.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
 <strong>Jonathan Henríquez Lühr</strong>
 <p class="card-text">Psicólogo</p>
 [![](images/icons/mail.png){width="30px" height="30px"}](mailto:jonathan.henriquez\@umag.cl)
+</div>
+:::
+
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/ruby-mendez.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Ruby Méndez</strong>
+<p class="card-text">Profesora de Educación Física</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:rumendez\@umag.cl)
 </div>
 :::
 :::
@@ -189,6 +223,15 @@ Universidad de Magallanes
 :::
 
 ::: {.grid .mx-auto}
+::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
+<img src="images/people/p/tiare-ibinarriaga.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<div class="card-body">
+<strong>Tiare Ibinarriaga</strong>
+<p class="card-text">Estudiante de Psicología (UMAG)</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:tibinarr\@umag.cl)
+</div>
+:::
+
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
 <img src="images/people/p/matias-mabe.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
@@ -206,15 +249,6 @@ Universidad de Magallanes
 <p class="card-text">Estudiante de Kinesiología (UMAG)</p>
 [![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Diego-Mabe-Castro)
 [![](images/icons/mail.png){width="30px" height="30px"}](mailto:dmabe\@umag.cl)
-</div>
-:::
-
-::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/pia-carrasco.png" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
-<div class="card-body">
-<strong>Pia Carrasco</strong>
-<p class="card-text">Estudiante de Medicina (UMAG)</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:picarras\@umag.cl)
 </div>
 :::
 
@@ -242,7 +276,7 @@ Universidad de Magallanes
 :::
 
 ::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+<img src="images/people/p/pedro-hinojosa.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
 <div class="card-body">
 <strong>Pedro Hinojosa</strong>
 <p class="card-text">Estudiante de Medicina (UMAG)</p>
@@ -258,20 +292,40 @@ Universidad de Magallanes
 :::
 
 ::: {.grid .mx-auto}
-::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/panchi.jpeg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/panchi.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Panchi</strong>
 </div>
 :::
 
-::: {.g-col-12 .g-col-xs-6 .g-col-sm-4 .g-col-lg-4 .card}
-<img src="images/people/p/luna.jpg" class="card-img-top m-auto" style="height: 15rem; object-fit: cover;">
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/luna.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Luna</strong>
 </div>
 :::
+
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/blanca.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Blanca</strong>
+</div>
 :::
+:::
+
+<br>
+
+::: {.display-5}
+[Alumni]{#alumni}
+:::
+
+:::{.grid}
+:::{.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3}
+[Pia Carrasco](mailto:picarras\@umag.cl)
+::: 
+:::
+
 
 <br>
 

@@ -20,15 +20,6 @@ Contáctanos
 Email: [cristian.nunez\@umag.cl](mailto:cristian.nunez\@umag.cl)\
 Teléfono: (+56) 61 2 201411
 :::
-
-::: {.g-col-6}
-[Coordinadora de Grupo]{style="font-size: 1.5rem"}
-:::
-::: {.g-col-6}
-[Valeska Villegas]{style="font-size: 1.5rem"}
-
-Email: [valeska.oyarzo\@umag.cl](mailto:valeska.oyarzo\@umag.cl)\
-:::
 :::
 
 <br>
