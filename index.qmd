@@ -77,6 +77,8 @@ title: "Inicio"
 ::: {.g-col-6 .g-col-sm-4 .g-start-sm-2}
 ## 2023
 
+**Septiembre** --- El equipo de NIM-ACh participa en presentación de póster y jornadas de CIES (Centro Interuniversitario de Envejecimiento Saludable) en Talca.
+
 **Mayo** --- Comienza un nuevo año de proyecto Fondecyt con evaluación de deportistas y mindfulness en personas mayores.
 
 **Abril** --- Comienzan nuevas investigaciones en personas mayores que vinculan el ejercicio, mindfulness y el retraso del deterioro cognitivo.
