@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -46,7 +46,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "Sin resultados",
     "search-matching-documents-text": "documentos encontrados",
@@ -55,15 +61,17 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "resultado adicional en este documento",
     "search-more-matches-text": "resultados adicionales en este documento",
     "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar"
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
 
 
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="NIM-ACh - Personas">
-<meta property="og:site-name" content="NIM-ACh">
+<meta property="og:site_name" content="NIM-ACh">
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:title" content="NIM-ACh - Personas">
 <meta name="twitter:card" content="summary">
@@ -73,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./logos/navbar.png" alt="" class="navbar-logo">
     </a>
@@ -83,34 +91,36 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">NIM-ACh</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./investigacion.html">
- <span class="menu-text">Investigación</span></a>
+    <a class="nav-link" href="./investigacion.html"> 
+<span class="menu-text">Investigación</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./personas.html" aria-current="page">
- <span class="menu-text">Personas</span></a>
+    <a class="nav-link active" href="./personas.html" aria-current="page"> 
+<span class="menu-text">Personas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publicaciones.html">
- <span class="menu-text">Publicaciones</span></a>
+    <a class="nav-link" href="./publicaciones.html"> 
+<span class="menu-text">Publicaciones</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./dei.html">
- <span class="menu-text">DEI</span></a>
+    <a class="nav-link" href="./dei.html"> 
+<span class="menu-text">DEI</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contactanos.html">
- <span class="menu-text">Contáctanos</span></a>
+    <a class="nav-link" href="./contactanos.html"> 
+<span class="menu-text">Contáctanos</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -137,7 +147,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <style>
 .card-body {
@@ -163,7 +175,7 @@ ul.task-list li input[type="checkbox"] {
 </div> 
 <div class="grid column-page pt-5 pt-sm-4 pt-md-4 pt-lg-0">
 <div class="g-col-12 g-col-sm-6 g-col-md-4 g-col-lg-4 m-auto">
-<p><img src="images/people/p/cris-nunez.jpg" class="img-fluid rounded img-fluid" style="height:15rem; width:12rem; object-fit:cover;"></p>
+<p><img src="images/people/p/cris-nunez.jpg" class="img-fluid rounded" style="height:15rem; width:12rem; object-fit:cover;"></p>
 </div>
 <div class="g-col-12 g-col-sm-6 g-col-md-8 g-col-lg-8 m-auto">
 <p><span class="display-6">Cristian Núñez Espinosa, PhD</span></p>
@@ -179,6 +191,16 @@ Universidad de Magallanes</p>
 <p><span id="staff">Staff</span></p>
 </div>
 <div class="grid mx-auto">
+<div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
+<img src="images/people/p/javiera-gonzalez.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Javiera Gonzalez</strong>
+<p class="card-text">
+Kinesióloga, Coordinadora de grupo
+</p>
+<p><a href="mailto:gnzl.javiera@gmail.com"><img src="images/icons/mail.png" width="30" height="30"></a></p>
+</div>
+</div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
 <img src="images/people/p/matias-castillo.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body" style="text-align: left;">
@@ -202,25 +224,7 @@ Kinesiólogo, Analista de datos
 <p class="card-text">
 PhD, Psicología
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:claudia.estrada@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
-<img src="images/people/p/katherine-harris.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
-<div class="card-body">
-<strong>Katherine Harris King</strong>
-<p class="card-text">
-Kinesióloga
-</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:katherine.harris@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:claudia.estrada@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
@@ -230,11 +234,7 @@ Kinesióloga
 <p class="card-text">
 Kinesiólogo
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:sergio.cares@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:sergio.cares@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 </div>
@@ -244,12 +244,13 @@ Kinesiólogo
 </div>
 <div class="grid mx-auto">
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
-<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<img src="images/people/p/wolfrang.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Wolfrang Henriquez</strong>
 <p class="card-text">
 PhD ©, Ciencias (UMAG)
 </p>
+<p><a href="mailto:wolfrang.henriquez@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 </div>
@@ -259,45 +260,33 @@ PhD ©, Ciencias (UMAG)
 </div>
 <div class="grid mx-auto">
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
+<img src="images/people/p/ruby-mendez.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Ruby Méndez</strong>
+<p class="card-text">
+Profesora de Educación Física
+</p>
+<p><a href="mailto:rumendez@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
+</div>
+</div>
+<div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
 <img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Karen Tobar</strong>
 <p class="card-text">
 Psicóloga
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:tobar_karen@hotmail.com"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:tobar_karen@hotmail.com"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
-<img src="images/people/p/leyla-huirimilla.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
-<div class="card-body">
-<strong>Leyla Huirimilla</strong>
-<p class="card-text">
-Psicóloga
-</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:leylahuirimilla@gmail.com"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
-<img src="images/people/p/unknown.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<img src="images/people/p/roberto-herrera.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Roberto Herrera</strong>
 <p class="card-text">
 Psicólogo
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:r.herrera.avila@gmail.com"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:r.herrera.avila@gmail.com"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
@@ -307,11 +296,7 @@ Psicólogo
 <p class="card-text">
 Psicólogo
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:josemiguel.rubina@gmail.com"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:josemiguel.rubina@gmail.com"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 </div>
@@ -321,17 +306,23 @@ Psicólogo
 </div>
 <div class="grid mx-auto">
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
+<img src="images/people/p/leyla-huirimilla.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Leyla Huirimilla</strong>
+<p class="card-text">
+Psicóloga
+</p>
+<p><a href="mailto:leylahuirimilla@gmail.com"><img src="images/icons/mail.png" width="30" height="30"></a></p>
+</div>
+</div>
+<div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
 <img src="images/people/p/valeska-villegas.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Valeska Villegas</strong>
 <p class="card-text">
 Kinesióloga
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:valeska.oyarzo@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:valeska.oyarzo@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
@@ -341,25 +332,7 @@ Kinesióloga
 <p class="card-text">
 Kinesiólogo
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:gchinga@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
-<img src="images/people/p/javiera-gonzalez.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
-<div class="card-body">
-<strong>Javiera Gonzalez</strong>
-<p class="card-text">
-Kinesióloga
-</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:gnzl.javiera@gmail.com"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:gchinga@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
@@ -369,11 +342,7 @@ Kinesióloga
 <p class="card-text">
 Fonoaudióloga
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:valeska.oyarzo@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:valeska.oyarzo@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
@@ -383,25 +352,7 @@ Fonoaudióloga
 <p class="card-text">
 Psicólogo
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:jonathan.henriquez@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
-<img src="images/people/p/ruby-mendez.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
-<div class="card-body">
-<strong>Ruby Méndez</strong>
-<p class="card-text">
-Profesora de Educación Física
-</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:rumendez@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:jonathan.henriquez@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
@@ -411,11 +362,7 @@ Profesora de Educación Física
 <p class="card-text">
 Psicóloga
 </p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:tibinarr@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
+<p><a href="mailto:tibinarr@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
 </div>
 </div>
 </div>
@@ -424,6 +371,15 @@ Psicóloga
 <p><span id="undergrads">Estudiantes de Pregrado</span></p>
 </div>
 <div class="grid mx-auto">
+<div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
+<img src="images/people/p/josefa-lillo.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Josefa Lillo Bobadilla</strong>
+<p class="card-text">
+Estudiante de Medicina (UMAG)
+</p>
+</div>
+</div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
 <img src="images/people/p/matias-mabe.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
@@ -445,7 +401,7 @@ Estudiante de Kinesiología (UMAG)
 </div>
 </div>
 <div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
-<img src="images/people/p/caren-alvarado.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<img src="images/people/p/caren-alvarado.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Caren Alvarado Aravena</strong>
 <p class="card-text">
@@ -462,20 +418,6 @@ Interna de Medicina (UMAG)
 Interno de Medicina (UMAG)
 </p>
 <p><a href=""><img src="images/icons/linkedin.png" width="30" height="30"></a> <a href="https://www.researchgate.net/profile/Matias-Riquelme-Ortega"><img src="images/icons/researchgate.png" width="30" height="30"></a> <a href="https://orcid.org/0000-0001-6410-9265"><img src="images/icons/orcid.png" width="30" height="30"></a> <a href="mailto:matiriqu@umag.cl"><img src="images/icons/mail.png" width="30" height="30"></a></p>
-</div>
-</div>
-<div class="g-col-6 g-col-xs-4 g-col-sm-3 g-col-lg-3 card">
-<img src="images/people/p/pedro-hinojosa.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
-<div class="card-body">
-<strong>Pedro Hinojosa</strong>
-<p class="card-text">
-Estudiante de Medicina (UMAG)
-</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mailto:pehinojo@umag.cl"><img src="images/icons/mail.png" width="30" height="30" class="figure-img"></a></p>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -510,6 +452,12 @@ Estudiante de Medicina (UMAG)
 <div class="grid">
 <div class="g-col-6 g-col-xs-3 g-col-sm-3 g-col-lg-3">
 <p><a href="mailto:picarras@umag.cl">Pia Carrasco</a></p>
+</div>
+<div class="g-col-6 g-col-xs-3 g-col-sm-3 g-col-lg-3">
+<p><a href="mailto:pehinojo@umag.cl">Pedro Hinojosa</a></p>
+</div>
+<div class="g-col-6 g-col-xs-3 g-col-sm-3 g-col-lg-3">
+<p><a href="mailto:katherine.harris@umag.cl">Katherine Harris King</a></p>
 </div>
 </div>
 <p><br></p>
@@ -576,9 +524,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -614,10 +576,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -627,8 +606,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -640,9 +628,245 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -685,7 +909,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© 2023 NIM-ACh Group</div>   
+    <div class="nav-footer-left">
+<p>© 2023 NIM-ACh Group</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -716,6 +945,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

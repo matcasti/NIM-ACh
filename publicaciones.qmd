@@ -29,7 +29,8 @@ Publicaciones
 <div class="column-page grid">
   <div class="research-tab-pane g-col-12 g-col-sm-2 overflow-scroll">
     <div class="list-group" id="list-tab" role="tablist" style="display: block">
-      <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#l-2023" role="tab" style="border: none">2023</a>
+      <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#l-2024" role="tab" style="border: none">2024</a>
+      <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#l-2023" role="tab" style="border: none">2023</a>
       <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#l-2022" role="tab" style="border: none">2022</a>
       <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#l-2021" role="tab" style="border: none">2021</a>
       <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#l-2020" role="tab" style="border: none">2020</a>
@@ -43,72 +44,102 @@ Publicaciones
     </div>
   </div>
   <div class="g-col-12 g-col-sm-10">
-    <div class="tab-content research-tab-pane overflow-scroll" id="nav-tabContent" style="border: 1px solid #999999; border-radius: 10px">
-      <div class="tab-pane fade show active" id="l-2023" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>44. Festa RR, Jofré-Saldı́a E, Candia AA, Monsalves-Álvarez M, Flores-Opazo M, Peñailillo L, et al. Next steps to advance general physical activity recommendations towards physical exercise prescription: A narrative review. BMJ Open Sport & Exercise Medicine. 2023;9(4).</p>
-        <p>43. Valdés-Badilla P, Guzmán-Muñoz E, Hernandez-Martinez J, Núñez-Espinosa C, Delgado-Floody P, Herrera-Valenzuela T, et al. Effectiveness of elastic band training and group-based dance on physical-functional performance in older women with sarcopenia: A pilot study. BMC Public Health. 2023;23(1):2113.</p>
-        <p>42. Barria Aburto P, Carrasco Cardenas P, Bandera Quiñones A. Efectos del uso de comunicación aumentativa alternativa, en pacientes con diagnóstico neurológico y/o alteración en la comunicación, a través del sistema press & say.</p>
-        <p>41. Riquelme Ortega M. Como indexar una revista científica usando WordPress en google scholar. Revista Cubana de Informática Médica [Internet]. 2023;23(2):631.</p>
-        <p>40. Camacho M, Romero Lozano H. Una mirada binacional de las ciencias del deporte y la educación física. Vol. 1. 2023.</p>
-        <p>39. Muñoz EEG, Araya SR, Vega MD, Rebolledo GM, Badilla PV, Espinosa CN, et al. Relación entre composición corporal y somatotipo con equilibrio postural dinámico en jóvenes basquet-bolistas. Retos: nuevas tendencias en educación fı́sica, deporte y recreación. 2023;(50):239–43.</p>
-        <p>38. Moraes MM, Marques AL, Borges L, Hatanaka E, Heller D, Núñez-Espinosa C, et al. Sleep impairment and altered pattern of circadian biomarkers during a long-term antarctic summer camp. Scientific Reports. 2023;13(1):15959.</p>
-        <p>37. Castillo-Aguilar M, Mabe Castro DA, Mabe M, Oyarzo V, Harris K, Valdés Badilla PA, et al. Cardiac autonomic regulation in response to functional power threshold testing in elite cyclists. Revista Andaluza de Medicina del Deporte. 2023;16(1).</p>
-        <p>36. Barria P, Riquelme M, Reppich H, Cisnal A, Fraile J-C, Pérez-Turiel J, et al. Hand rehabilitation based on the RobHand exoskeleton in stroke patients: A case series study. Frontiers in Robotics and AI. 2023;10.</p>
-        <p>35. Castillo-Aguilar M, Mabe Castro M, Mabe Castro D, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, et al. Validity and reliability of short-term heart rate variability parameters in older people in response to physical exercise. International Journal of Environmental Research and Public Health. 2023;20(5):4456.</p>
-        <p>34. Moraes MM, Mendes TT, Borges L, Marques AL, Núñez-Espinosa C, Gonçalves DA, et al. A 7-week summer camp in antarctica induces fluctuations on human oral microbiome, pro-inflammatory markers and metabolic hormones profile. Microorganisms. 2023;11(2):339.</p>
-        <p>33. Guzmán-Muñoz E, Mendez-Rebolledo G, Núñez-Espinosa C, Valdés-Badilla P, Monsalves-Álvarez M, Delgado-Floody P, et al. Anthropometric profile and physical activity level as predictors of postural balance in overweight and obese children. Behavioral Sciences. 2023;13(1):73.</p>
-        <p>32. Alvarado-Aravena C, Castillo-Aguilar M, Villegas V, Estrada Goic C, Harris K, Barría B, et al. Physical activity, seasonal sensitivity and psychological well-being of people of different age groups living in extreme environments. International Journal of Environmental Research and Public Health. 2023;20(3):1719.</p>
+    <div class="tab-content research-tab-pane overflow-scroll" id="nav-tabContent" style="border-bottom: none;">
+    
+    
+      <div class="tab-pane fade show active" id="l-2024" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>48.</strong> Mabe-Castro D, Gomez KT, Castillo-Aguilar M, Jannas-Vela S, Guzmán-Muñoz E, Valdés-Badilla P, et al. <i>Frailty, seasonal sensitivity and health-related quality of life in older people living in high southern latitudes: A bayesian analysis.</i> <strong>Canadian Geriatrics Journal</strong>. 2024;27(1):56.</p>
+        <p><strong>47.</strong> Fernández-Elgueta A, Retamal-Matus H, Núñez-Espinosa C, Aburto PB. <i>Calidad de vida de las personas con enfermedad de parkinson durante el confinamiento por la pandemia por covid-19.</i> <strong>Rehabilitación</strong>. 2024;58(1):100821.</p>
+        <p><strong>46.</strong> Guzmán-Muñoz E, Mendez-Rebolledo G, Sazo-Rodriguez S, Salazar-Méndez J, Valdes-Badilla P, Nuñez-Espinosa C, et al. <i>Quadriceps muscle reaction time in obese children.</i> <strong>PeerJ</strong>. 2024;12:e17050.</p>
+        <p><strong>45.</strong> Delgado-Floody P, Caamaño-Navarrete F, Del-Cuerpo I, Vargas CA, Martinez-Salazar C, Valdés-Badilla P, et al. <i>Sixteen weeks of concurrent training do not increase the magnitude of the post-exercise hypotensive effect in hypercholesterolemic morbid obesity patients.</i> <strong>Medicina dello Sport</strong>. 2024;77(1):138–52.</p>
       </div>
-      <div class="tab-pane fade" id="l-2022" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>31. Delgado-Floody P, Chirosa-Rı́os L, Caamaño-Navarrete F, Valdés-Badilla P, Herrera-Valenzuela T, Monsalves-Álvarez M, et al. Concurrent training and interindividual response in women with a high number of metabolic syndrome risk factors. Frontiers in Physiology. 2022;1922.</p>
-        <p>30. Niño Méndez OA, Sierra Sampedro AC, Ceballos Bernal EA, Núñez Espinoza CA, Rodrı́guez Mora JL. Impacto de la pandemia por COVID-19 en persona sana y fı́sicamente activa. Reporte de un caso y actualización de los principales hallazgos. Revista de investigación e innovación en ciencias de la salud. 2022;4(2):160–9.</p>
-        <p>29. Valdés-Badilla P, Alarcón-Rivera M, Hernandez-Martinez J, Herrera-Valenzuela T, Branco BHM, Núñez-Espinosa C, et al. Factors associated with poor health-related quality of life in physically active older people. International Journal of Environmental Research and Public Health. 2022;19(21):13799.</p>
-        <p>28. Alvarado-Aravena C, Arriaza K, Castillo-Aguilar M, Flores K, Dagnino-Subiabre A, Estrada-Goic C, et al. Effect of confinement on anxiety symptoms and sleep quality during the COVID-19 pandemic. Behavioral Sciences. 2022;12(10):398.</p>
-        <p>27. Castillo Aguilar M, Castillo Aguilar V, Alvarado Aravena C, Yáñez-Yáñez R, Leitón-Espinoza ZE, Cigarroa I. Caracterı́sticas clı́nicas, comorbilidad y variables de laboratorio asociadas a la hospitalización y mortalidad de personas mayores con covid-19: Una revisión sistemática. Revista Cientı́fica Salud Uninorte. 2022;38(3):837–57.</p>
-        <p>26. Castillo-Aguilar M, Retamal Matus H, Santa Cruz R, Tinoco Martins Y, Niño Méndez O, Núñez-Espinosa C. Relationship of cardiorespiratory control and vascular compliance in competitive young athletes. Revista Andaluza de Medicina del Deporte. 2022;15.</p>
-        <p>25. Bruzzi RS, Moraes MM, Martins YA, Hudson AS, Ladeira RV, Núñez-Espinosa C, et al. Heart rate variability, thyroid hormone concentration, and neuropsychological responses in brazilian navy divers: A case report of diving in antarctic freezing waters. Anais da Academia Brasileira de Ciências. 2022;94.</p>
-        <p>24. Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P, Núñez-Espinosa C, Monsalves-Álvarez M, et al. Effects of olympic combat sports on health-related quality of life in middle-aged and older people: A systematic review. Frontiers in psychology. 2022;12:6186.</p>
-        <p>23. Martins YA, Passos RL, Marques AL, Gonçalves DA, Mendes TT, Núñez-Espinosa C, et al. A 32-day long fieldwork in antarctica improves heat tolerance during physical exercise. Anais da Academia Brasileira de Ciências. 2022;94.</p>
-        <p>22. Barria Aburto P, Barria Ruiz V, Castillo Aguilar M, Aguilar Cárdenas R, Andrade Gallardo A, Núñez-Espinosa C. Caracterización funcional de pacientes con parálisis cerebral que viven en la región de magallanes y la antártica chilena. Andes pediatrica. 2022;93(3).</p>
-        <p>21. Gallardo AA, Cvitanic VR, Aburto PB, Diaz HH, Cardenas RA, Núñez-Espinosa C. Telerehabilitación en alta latitud sur. Resultados de una implementación de tratamiento para personas en situación de discapacidad durante la pandemia de COVID-19. Fisioterapia. 2022;44(2):71–9.</p>
+      
+      
+      <div class="tab-pane fade" id="l-2023" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>44.</strong> Festa RR, Jofré-Saldı́a E, Candia AA, Monsalves-Álvarez M, Flores-Opazo M, Peñailillo L, et al. <i>Next steps to advance general physical activity recommendations towards physical exercise prescription: A narrative review.</i> <strong>BMJ Open Sport & Exercise Medicine.</strong> 2023;9(4).</p>
+        <p><strong>43.</strong> Valdés-Badilla P, Guzmán-Muñoz E, Hernandez-Martinez J, Núñez-Espinosa C, Delgado-Floody P, Herrera-Valenzuela T, et al. <i>Effectiveness of elastic band training and group-based dance on physical-functional performance in older women with sarcopenia: A pilot study.</i> <strong>BMC Public Health.</strong> 2023;23(1):2113.</p>
+        <p><strong>42.</strong> Barria Aburto P, Carrasco Cardenas P, Bandera Quiñones A. <i>Efectos del uso de comunicación aumentativa alternativa, en pacientes con diagnóstico neurológico y/o alteración en la comunicación, a través del sistema press & say.</i> <strong>Revista Argentina de Rehabilitación.</strong> 2023.</p>
+        <p><strong>41.</strong> Riquelme Ortega M. <i>Como indexar una revista científica usando WordPress en google scholar.</i> <strong>Revista Cubana de Informática Médica [Internet].</strong> 2023;23(2):631.</p>
+        <p><strong>40.</strong> Camacho M, Romero Lozano H. <i>Una mirada binacional de las ciencias del deporte y la educación física.</i> Vol. 1. 2023.</p>
+        <p><strong>39.</strong> Muñoz EEG, Araya SR, Vega MD, Rebolledo GM, Badilla PV, Espinosa CN, et al. <i>Relación entre composición corporal y somatotipo con equilibrio postural dinámico en jóvenes basquet-bolistas.</i> <strong>Retos: nuevas tendencias en educación fı́sica, deporte y recreación.</strong> 2023;(50):239–43.</p>
+        <p><strong>38.</strong> Moraes MM, Marques AL, Borges L, Hatanaka E, Heller D, Núñez-Espinosa C, et al. <i>Sleep impairment and altered pattern of circadian biomarkers during a long-term antarctic summer camp.</i> <strong>Scientific Reports.</strong> 2023;13(1):15959.</p>
+        <p><strong>37.</strong> Castillo-Aguilar M, Mabe Castro DA, Mabe M, Oyarzo V, Harris K, Valdés Badilla PA, et al. <i>Cardiac autonomic regulation in response to functional power threshold testing in elite cyclists.</i> <strong>Revista Andaluza de Medicina del Deporte.</strong> 2023;16(1).</p>
+        <p><strong>36.</strong> Barria P, Riquelme M, Reppich H, Cisnal A, Fraile J-C, Pérez-Turiel J, et al. <i>Hand rehabilitation based on the RobHand exoskeleton in stroke patients: A case series study.</i> <strong>Frontiers in Robotics and AI.</strong> 2023;10.</p>
+        <p><strong>35.</strong> Castillo-Aguilar M, Mabe Castro M, Mabe Castro D, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, et al. <i>Validity and reliability of short-term heart rate variability parameters in older people in response to physical exercise.</i> <strong>International Journal of Environmental Research and Public Health.</strong> 2023;20(5):4456.</p>
+        <p><strong>34.</strong> Moraes MM, Mendes TT, Borges L, Marques AL, Núñez-Espinosa C, Gonçalves DA, et al. <i>A 7-week summer camp in antarctica induces fluctuations on human oral microbiome, pro-inflammatory markers and metabolic hormones profile.</i> <strong>Microorganisms.</strong> 2023;11(2):339.</p>
+        <p><strong>33.</strong> Guzmán-Muñoz E, Mendez-Rebolledo G, Núñez-Espinosa C, Valdés-Badilla P, Monsalves-Álvarez M, Delgado-Floody P, et al. <i>Anthropometric profile and physical activity level as predictors of postural balance in overweight and obese children.</i> <strong>Behavioral Sciences.</strong> 2023;13(1):73.</p>
+        <p><strong>32.</strong> Alvarado-Aravena C, Castillo-Aguilar M, Villegas V, Estrada Goic C, Harris K, Barría B, et al. <i>Physical activity, seasonal sensitivity and psychological well-being of people of different age groups living in extreme environments.</i> <strong>International Journal of Environmental Research and Public Health.</strong> 2023;20(3):1719.</p>
       </div>
-      <div class="tab-pane fade" id="l-2021" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>20. Santa Cruz R, Irrazábal C, Gonzalez L, Geloso A, Nuñez C, Cornejo R. Analytic review and meta-analysis of awake prone positioning in patients with covid-19. Medicina intensiva. 2021.</p>
-        <p>19. Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P, Andrade DC, et al. Cardiac autonomic modulation in response to muscle fatigue and sex differences during consecutive competition periods in young swimmers: A longitudinal study. Frontiers in Physiology. 2021;1989.</p>
-        <p>18. Harris King K, Castillo-Aguilar M, Barría P, Aguilar R, Retamal H, Núñez Espinosa C. Propiedades cinemáticas de rodilla en respuesta a la posición de cuclillas: Implicancias para la rehabilitación. IBERDISCAP; 2021.</p>
-        <p>17. Niño Méndez ÓA, Reina-Monroy J-L, Pedraza GA, Portilla-Melo J-G, Aguilar-Romero I-D, Núñez-Espinosa CA, et al. Efectos del entrenamiento de intervalos de alta intensidad en altitud simulada. Revisión sistemática. Revista de investigación e innovación en ciencias de la salud. 2021;3(1):98–115.</p>
-        <p>16. Espinosa CN, Valenzuela TH, Badilla PV, Goic CE. Fatigue and conformist traits in the performance of young swimmers. Revista andaluza de medicina del deporte. 2021;14(3):176–80.</p>
-        <p>15. Alvarado-Aravena C, Estrada-Goic C, Núñez-Espinosa C. Sintomatologı́a depresiva y calidad de vida en estudiantes de medicina en alta latitud sur. Revista médica de Chile. 2021;149(3):357–65.</p>
-        <p>14. Riquelme MM, Melipillán CA, Bacon AA, Niño-Méndez OA, Núñez-Espinosa CA. Efectos del ejercicio aeróbico en agua sobre el dolor percibido y la variabilidad cardiaca en mujeres con fibromialgia. Arch med deporte. 2021;38(201):8–14.</p>
-        <p>13. Mendez OAN, Núñez CAS, Barrientos EB, Cancino CV, Muñoz RM. Efectos de la práctica de hatha-vinyasa yoga en la regulación autonómica y el dolor percibido de mujeres mayores que viven en alta latitud sur: Un estudio piloto. Retos: nuevas tendencias en educación fı́sica, deporte y recreación. 2021;(39):718–22.</p>
-        <p>12. Alvarado Aravena C, Castillo Aguilar M, Retamal Matus HF, Estrada Goic C, Núñez Espinosa C. Asociación entre el ı́ndice de masa corporal y la regulación del sistema cardiovascular en estudiantes de medicina. Un estudio piloto: Association between body mass index and regulation of the cardiovascular system in medical students. A pilot study. Archivos de Medicina (Manizales). 2021;21(2).</p>
+      
+      
+      <div class="tab-pane fade" id="l-2022" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>31.</strong> Delgado-Floody P, Chirosa-Rı́os L, Caamaño-Navarrete F, Valdés-Badilla P, Herrera-Valenzuela T, Monsalves-Álvarez M, et al. <i>Concurrent training and interindividual response in women with a high number of metabolic syndrome risk factors.</i> <strong>Frontiers in Physiology.</strong> 2022;1922.</p>
+        <p><strong>30.</strong> Niño Méndez OA, Sierra Sampedro AC, Ceballos Bernal EA, Núñez Espinoza CA, Rodrı́guez Mora JL.<i> Impacto de la pandemia por COVID-19 en persona sana y fı́sicamente activa. Reporte de un caso y actualización de los principales hallazgos.</i> <strong>Revista de investigación e innovación en ciencias de la salud.</strong> 2022;4(2):160–9.</p>
+        <p><strong>29.</strong> Valdés-Badilla P, Alarcón-Rivera M, Hernandez-Martinez J, Herrera-Valenzuela T, Branco BHM, Núñez-Espinosa C, et al. <i>Factors associated with poor health-related quality of life in physically active older people.</i> <strong>International Journal of Environmental Research and Public Health.</strong> 2022;19(21):13799.</p>
+        <p><strong>28.</strong> Alvarado-Aravena C, Arriaza K, Castillo-Aguilar M, Flores K, Dagnino-Subiabre A, Estrada-Goic C, et al. <i>Effect of confinement on anxiety symptoms and sleep quality during the COVID-19 pandemic.</i> <strong>Behavioral Sciences.</strong> 2022;12(10):398.</p>
+        <p><strong>27.</strong> Castillo Aguilar M, Castillo Aguilar V, Alvarado Aravena C, Yáñez-Yáñez R, Leitón-Espinoza ZE, Cigarroa I. <i>Caracterı́sticas clı́nicas, comorbilidad y variables de laboratorio asociadas a la hospitalización y mortalidad de personas mayores con covid-19: Una revisión sistemática.</i> <strong>Revista Científica Salud Uninorte</strong>. 2022;38(3):837–57.</p>
+        <p><strong>26.</strong> Castillo-Aguilar M, Retamal Matus H, Santa Cruz R, Tinoco Martins Y, Niño Méndez O, Núñez-Espinosa C. <i>Relationship of cardiorespiratory control and vascular compliance in competitive young athletes.</i> <strong>Revista Andaluza de Medicina del Deporte.</strong> 2022;15.</p>
+        <p><strong>25.</strong> Bruzzi RS, Moraes MM, Martins YA, Hudson AS, Ladeira RV, Núñez-Espinosa C, et al. <i>Heart rate variability, thyroid hormone concentration, and neuropsychological responses in brazilian navy divers: A case report of diving in antarctic freezing waters.</i> <strong>Anais da Academia Brasileira de Ciências.</strong> 2022;94.</p>
+        <p><strong>24.</strong> Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P, Núñez-Espinosa C, Monsalves-Álvarez M, et al. <i>Effects of olympic combat sports on health-related quality of life in middle-aged and older people: A systematic review.</i> <strong>Frontiers in psychology.</strong> 2022;12:6186.</p>
+        <p><strong>23.</strong> Martins YA, Passos RL, Marques AL, Gonçalves DA, Mendes TT, Núñez-Espinosa C, et al. <i>A 32-day long fieldwork in antarctica improves heat tolerance during physical exercise.</i> <strong>Anais da Academia Brasileira de Ciências.</strong> 2022;94.</p>
+        <p><strong>22.</strong> Barria Aburto P, Barria Ruiz V, Castillo Aguilar M, Aguilar Cárdenas R, Andrade Gallardo A, Núñez-Espinosa C. <i>Caracterización funcional de pacientes con parálisis cerebral que viven en la región de magallanes y la antártica chilena.</i> <strong>Andes pediatrica.</strong> 2022;93(3).</p>
+        <p><strong>21.</strong> Gallardo AA, Cvitanic VR, Aburto PB, Diaz HH, Cardenas RA, Núñez-Espinosa C. <i>Telerehabilitación en alta latitud sur. Resultados de una implementación de tratamiento para personas en situación de discapacidad durante la pandemia de COVID-19.</i> <strong>Fisioterapia.</strong> 2022;44(2):71–9.</p>
       </div>
-      <div class="tab-pane fade" id="l-2020" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>11. Moraes MM, Bruzzi RS, Martins YA, Mendes TT, Maluf CB, Ladeira RV, et al. Hormonal, autonomic cardiac and mood states changes during an antarctic expedition: From ship travel to camping in snow island. Physiology & Behavior. 2020;224:113069.</p>
-        <p>10. Riquelme M, Cisternas C, Núñez C. Relación entre los niveles de ansiedad precompetitiva y rendimiento deportivo en atletas adolescentes. Archivos de la Sociedad Chilena de Medicina del Deporte. 2020;65(1):13–28.</p>
-        <p>9. Muñoz P, Ardiles ÁO, Pérez-Espinosa B, Núñez-Espinosa C, Paula-Lima A, González-Billault C, et al. Redox modifications in synaptic components as biomarkers of cognitive status, in brain aging and disease. Mechanisms of Ageing and Development. 2020;189:111250.</p>
+      
+      
+      <div class="tab-pane fade" id="l-2021" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>20.</strong> Santa Cruz R, Irrazábal C, Gonzalez L, Geloso A, Nuñez C, Cornejo R. <i>Analytic review and meta-analysis of awake prone positioning in patients with covid-19.</i> <strong>Medicina intensiva.</strong> 2021.</p>
+        <p><strong>19.</strong> Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P, Andrade DC, et al. <i>Cardiac autonomic modulation in response to muscle fatigue and sex differences during consecutive competition periods in young swimmers: A longitudinal study.</i> <strong>Frontiers in Physiology.</strong> 2021;1989.</p>
+        <p><strong>18.</strong> Harris King K, Castillo-Aguilar M, Barría P, Aguilar R, Retamal H, Núñez Espinosa C. <i>Propiedades cinemáticas de rodilla en respuesta a la posición de cuclillas: Implicancias para la rehabilitación.</i> <strong>IBERDISCAP</strong>; 2021.</p>
+        <p><strong>17.</strong> Niño Méndez ÓA, Reina-Monroy J-L, Pedraza GA, Portilla-Melo J-G, Aguilar-Romero I-D, Núñez-Espinosa CA, et al. <i>Efectos del entrenamiento de intervalos de alta intensidad en altitud simulada. Revisión sistemática.</i> <strong>Revista de investigación e innovación en ciencias de la salud.</strong> 2021;3(1):98–115.</p>
+        <p><strong>16.</strong> Espinosa CN, Valenzuela TH, Badilla PV, Goic CE. <i>Fatigue and conformist traits in the performance of young swimmers.</i> <strong>Revista andaluza de medicina del deporte.</strong> 2021;14(3):176–80.</p>
+        <p><strong>15.</strong> Alvarado-Aravena C, Estrada-Goic C, Núñez-Espinosa C. <i>Sintomatologı́a depresiva y calidad de vida en estudiantes de medicina en alta latitud sur.</i> <strong>Revista médica de Chile.</strong> 2021;149(3):357–65.</p>
+        <p><strong>14.</strong> Riquelme MM, Melipillán CA, Bacon AA, Niño-Méndez OA, Núñez-Espinosa CA. <i>Efectos del ejercicio aeróbico en agua sobre el dolor percibido y la variabilidad cardiaca en mujeres con fibromialgia.</i> <strong>Arch med deporte.</strong> 2021;38(201):8–14.</p>
+        <p><strong>13.</strong> Mendez OAN, Núñez CAS, Barrientos EB, Cancino CV, Muñoz RM. <i>Efectos de la práctica de hatha-vinyasa yoga en la regulación autonómica y el dolor percibido de mujeres mayores que viven en alta latitud sur: Un estudio piloto.</i> <strong>Retos: nuevas tendencias en educación fı́sica, deporte y recreación.</strong> 2021;(39):718–22.</p>
+        <p><strong>12.</strong> Alvarado Aravena C, Castillo Aguilar M, Retamal Matus HF, Estrada Goic C, Núñez Espinosa C. <i>Asociación entre el ı́ndice de masa corporal y la regulación del sistema cardiovascular en estudiantes de medicina. Un estudio piloto: Association between body mass index and regulation of the cardiovascular system in medical students. A pilot study.</i> <strong>Archivos de Medicina (Manizales).</strong> 2021;21(2).</p>
       </div>
-      <div class="tab-pane fade" id="l-2019" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>8. Rı́os-Kristjánsson JG, Rizo-Roca D, Kristjánsdóttir KM, Núñez-Espinosa CA, Torrella JR, Pages T, et al. A three-criteria performance score for rats exercising on a running treadmill. Plos one. 2019;14(7):e0219167.</p>
+      
+      
+      <div class="tab-pane fade" id="l-2020" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>11.</strong> Moraes MM, Bruzzi RS, Martins YA, Mendes TT, Maluf CB, Ladeira RV, et al. <i>Hormonal, autonomic cardiac and mood states changes during an antarctic expedition: From ship travel to camping in snow island.</i> <strong>Physiology & Behavior.</strong> 2020;224:113069.</p>
+        <p><strong>10.</strong> Riquelme M, Cisternas C, Núñez C. <i>Relación entre los niveles de ansiedad precompetitiva y rendimiento deportivo en atletas adolescentes.</i> <strong>Archivos de la Sociedad Chilena de Medicina del Deporte.</strong> 2020;65(1):13–28.</p>
+        <p><strong>9.</strong> Muñoz P, Ardiles ÁO, Pérez-Espinosa B, Núñez-Espinosa C, Paula-Lima A, González-Billault C, et al. <i>Redox modifications in synaptic components as biomarkers of cognitive status, in brain aging and disease.</i> <strong>Mechanisms of Ageing and Development.</strong> 2020;189:111250.</p>
       </div>
-      <div class="tab-pane fade" id="l-2018" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>7. Moraes MM, Mendes TT, Martins YA, Espinosa CN, Maluf CB, Soares DD, et al. The changes in maximal oxygen uptake (v̊O2MAX) induced by physical exertion during an antarctic expedition depend on the initial v̊O2MAX of the individuals: A case study of the brazilian expedition. International Journal of Circumpolar Health. 2018;77(1):1521244.</p>
+      
+      
+      <div class="tab-pane fade" id="l-2019" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>8.</strong> Rı́os-Kristjánsson JG, Rizo-Roca D, Kristjánsdóttir KM, Núñez-Espinosa CA, Torrella JR, Pages T, et al. <i>A three-criteria performance score for rats exercising on a running treadmill.</i> <strong>Plos one.</strong> 2019;14(7):e0219167.</p>
       </div>
-      <div class="tab-pane fade" id="l-2017" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>6. Rizo-Roca D, Rı́os-Kristjánsson JG, Núñez-Espinosa C, Santos-Alves E, Magalhães J, Ascensão A, et al. Modulation of mitochondrial biomarkers by intermittent hypobaric hypoxia and aerobic exercise after eccentric exercise in trained rats. Applied Physiology, Nutrition, and Metabolism. 2017;42(7):683–93.</p>
+      
+      
+      <div class="tab-pane fade" id="l-2018" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>7.</strong> Moraes MM, Mendes TT, Martins YA, Espinosa CN, Maluf CB, Soares DD, et al. <i>The changes in maximal oxygen uptake (v̊O2MAX) induced by physical exertion during an antarctic expedition depend on the initial VO2MAX of the individuals: A case study of the brazilian expedition.</i> <strong>International Journal of Circumpolar Health.</strong> 2018;77(1):1521244.</p>
       </div>
-      <div class="tab-pane fade" id="l-2016" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>5. Núñez-Espinosa C, D Garcia-Godoy M, Ferreira I, G Rios-Kristjansson J, Rizo-Roca D, G Rico L, et al. Vybrant DyeCycle violet stain discriminates two different subsets of CD34+ cells. Current Stem Cell Research & Therapy. 2016;11(1):66–71.</p>
+      
+      
+      <div class="tab-pane fade" id="l-2017" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>6.</strong> Rizo-Roca D, Rı́os-Kristjánsson JG, Núñez-Espinosa C, Santos-Alves E, Magalhães J, Ascensão A, et al. <i>Modulation of mitochondrial biomarkers by intermittent hypobaric hypoxia and aerobic exercise after eccentric exercise in trained rats.</i> <strong>Applied Physiology, Nutrition, and Metabolism.</strong> 2017;42(7):683–93.</p>
       </div>
-      <div class="tab-pane fade" id="l-2015" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>4. Silva-Urra JA, Núñez-Espinosa CA, Niño-Mendez OA, Gaitán-Peñas H, Altavilla C, Toro-Salinas A, et al. Circadian and sex differences after acute high-altitude exposure: Are early acclimation responses improved by blue light? Wilderness & Environmental Medicine. 2015;26(4):459–71.</p>
-        <p>3. Nunez-Espinosa C, Ferreira I, Gabriel Rios-Kristjansson J, Rizo-Roca D, Dolors Garcia Godoy M, G Rico L, et al. Effects of intermittent hypoxia and light aerobic exercise on circulating stem cells and side population, after strenuous eccentric exercise in trained rats. Current stem cell research & therapy. 2015;10(2):132–9.</p>
+      
+      
+      <div class="tab-pane fade" id="l-2016" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>5.</strong> Núñez-Espinosa C, D Garcia-Godoy M, Ferreira I, G Rios-Kristjansson J, Rizo-Roca D, G Rico L, et al. <i>Vybrant DyeCycle violet stain discriminates two different subsets of CD34+ cells.</i> <strong>Current Stem Cell Research & Therapy.</strong> 2016;11(1):66–71.</p>
       </div>
-      <div class="tab-pane fade" id="l-2014" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>2. Núnez-Espinosa C, Douziech A, Rı́os-Kristjánsson JG, Rizo D, Torrella JR, Pagès T, et al. Effect of intermittent hypoxia and exercise on blood rheology and oxygen transport in trained rats. Respiratory Physiology & Neurobiology. 2014;192:112–7.</p>
+      
+      
+      <div class="tab-pane fade" id="l-2015" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>4.</strong> Silva-Urra JA, Núñez-Espinosa CA, Niño-Mendez OA, Gaitán-Peñas H, Altavilla C, Toro-Salinas A, et al. <i>Circadian and sex differences after acute high-altitude exposure: Are early acclimation responses improved by blue light?</i> <strong>Wilderness & Environmental Medicine.</strong> 2015;26(4):459–71.</p>
+        <p><strong>3.</strong> Nunez-Espinosa C, Ferreira I, Gabriel Rios-Kristjansson J, Rizo-Roca D, Dolors Garcia Godoy M, G Rico L, et al. <i>Effects of intermittent hypoxia and light aerobic exercise on circulating stem cells and side population, after strenuous eccentric exercise in trained rats.</i> <strong>Current stem cell research & therapy.</strong> 2015;10(2):132–9.</p>
       </div>
-      <div class="tab-pane fade" id="l-2013" role="tabpanel" style="margin-top: -1.2rem; margin-bottom: -1.2rem;">
-        <p>1. Espinosa CN. Fatiga, el enemigo del movimiento en altura. VFC una opción viable de detección. Revista Motricidad y Persona: serie de estudios. 2013;(12):47–54.</p>
+      
+      
+      <div class="tab-pane fade" id="l-2014" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>2.</strong> Núnez-Espinosa C, Douziech A, Rı́os-Kristjánsson JG, Rizo D, Torrella JR, Pagès T, et al. <i>Effect of intermittent hypoxia and exercise on blood rheology and oxygen transport in trained rats.</i> <strong>Respiratory Physiology & Neurobiology.</strong> 2014;192:112–7.</p>
+      </div>
+      
+      
+      <div class="tab-pane fade" id="l-2013" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>1.</strong> Espinosa CN. <i>Fatiga, el enemigo del movimiento en altura. VFC una opción viable de detección.</i> <strong>Revista Motricidad y Persona: serie de estudios.</strong> 2013;(12):47–54.</p>
       </div>
     </div>
   </div>

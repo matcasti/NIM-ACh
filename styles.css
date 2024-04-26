@@ -61,7 +61,7 @@ hr {
 }
 
 .research-tab-pane {
-    height: calc(70vh - 65px);
+    height: 100%;
 }
 
 @media screen and (min-width: 992px) {
@@ -95,7 +95,7 @@ hr {
     }
     
     .research-tab-pane {
-        height: calc(70vh - 65px);
+        height: 100%;
     }
 }
 
@@ -110,7 +110,7 @@ hr {
     }
     
     .research-tab-pane {
-        height: calc(70vh - 30px);
+        height: 100%;
     }
 }
 
