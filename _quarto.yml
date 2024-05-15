@@ -7,6 +7,7 @@ project:
 website:
   title: "NIM-ACh"
   favicon: "logos/logo.png"
+  google-analytics: "G-KY2CTTZXHG"
   twitter-card: true
   open-graph:
     locale: es_ES
