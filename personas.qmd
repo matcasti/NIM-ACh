@@ -182,24 +182,6 @@ Universidad de Magallanes
 :::
 
 ::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
-<img src="images/people/p/valeska-villegas.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
-<div class="card-body">
-<strong>Valeska Villegas</strong>
-<p class="card-text">Kinesióloga</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:valeska.oyarzo\@umag.cl)
-</div>
-:::
-
-::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
-<img src="images/people/p/gabriel-chinga.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
-<div class="card-body">
-<strong>Gabriel Chinga</strong>
-<p class="card-text">Kinesiólogo</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:gchinga\@umag.cl)
-</div>
-:::
-
-::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
 <img src="images/people/p/valeska-oyarzo.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Valeska Oyarzo Igor</strong>
@@ -223,6 +205,15 @@ Universidad de Magallanes
 <strong>Tiare Ibinarriaga</strong>
 <p class="card-text">Psicóloga</p>
 [![](images/icons/mail.png){width="30px" height="30px"}](mailto:tibinarr\@umag.cl)
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/marcelo-andrade.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Marcelo Andrade</strong>
+<p class="card-text">Nutricionista</p>
+[![](images/icons/mail.png){width="30px" height="30px"}](mailto:marceloandrade2491\@gmail.com)
 </div>
 :::
 :::
@@ -284,12 +275,52 @@ Universidad de Magallanes
 [![](images/icons/mail.png){width="30px" height="30px"}](mailto:matiriqu\@umag.cl)
 </div>
 :::
+
+::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/constanza-castillo.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Constanza Castillo</strong>
+<p class="card-text">Estudiante de Medicina (UMAG)</p>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/catalina-marin.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Catalina Marin</strong>
+<p class="card-text">Estudiante de Medicina (UMAG)</p>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/david-paillan.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>David Paillan</strong>
+<p class="card-text">Estudiante de Medicina (UMAG)</p>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/david-paillan.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>David Paillan</strong>
+<p class="card-text">Estudiante de Medicina (UMAG)</p>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/evelyn-heffling.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Evelyn Heffling</strong>
+<p class="card-text">Estudiante de Medicina (UMAG)</p>
+</div>
+:::
 :::
 
 <br>
 
 ::: {.display-5}
-[NIM-AChinos]{#nimachians}
+[NIMAChinos]{#nimachians}
 :::
 
 ::: {.grid .mx-auto}
@@ -311,6 +342,56 @@ Universidad de Magallanes
 <img src="images/people/p/blanca.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Blanca</strong>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/cleo-morita-nina-chubi.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Cleo, Morita, Nina y Chubi</strong>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/coco-javiera.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Coco</strong>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/docky-caren.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Docky</strong>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/luna-leyla.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Luna</strong>
+</div>
+:::
+
+
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/miko-diego.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Miko</strong>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/nami-marcelo.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Nami</strong>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/raimundo-leyla.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Raimundo</strong>
 </div>
 :::
 :::

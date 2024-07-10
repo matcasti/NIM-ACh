@@ -75,6 +75,14 @@ title: "Inicio"
 :::
 
 ::: {.g-col-6 .g-col-sm-4 .g-start-sm-2}
+## 2024
+
+**Junio** --- Comenzamos con las mediciones de nadadores de aguas gélidas en Magallanes.
+
+**Mayo** --- Comenzamos a vincularnos con estudiantes y profesores de la Universidad de Salvador de Bahia. Esta colaboración esta enmarcada en el proyecto MEDIANTAR 2024-2028 y proyecta avanzar en temas de investigación que abarquen las áreas de ambientes extremos y ejercicio físico.
+
+**Enero** --- Iniciamos colaboraciones con la red Red Interuniversitaria de Envejecimiento Saludable para América Latina y el Caribe ( RIES_LAC). Aquí nos vinculamos con investigadores de personas mayores de todo latinoamérica.
+
 ## 2023
 
 **Septiembre** --- El equipo de NIM-ACh participa en presentación de póster y jornadas de CIES (Centro Interuniversitario de Envejecimiento Saludable) en Talca.
