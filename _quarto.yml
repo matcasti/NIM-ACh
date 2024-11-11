@@ -14,7 +14,7 @@ website:
     site-name: NIM-ACh
   page-footer: 
     border: false
-    left: "© 2023 NIM-ACh Group"
+    left: "© 2024 NIM-ACh Group"
     right: 
       - icon: github
         href: https://github.com/NIM-ACh

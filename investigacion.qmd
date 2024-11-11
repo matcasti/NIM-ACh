@@ -20,58 +20,77 @@ title: "Investigación"
 </div> 
 ```
 
-::: {.grid .column-page .gap-3}
+::: {.grid .gap-3}
 <!--- --->
 <!--- --->
-::: {.g-col-12 .g-col-md-4}
-[Nuestros intereses]{style="font-size: 1.5rem"}
+::: {.g-col-12 .g-col-md-6}
+[Nuestros intereses]{style="font-size:2rem;"}
 :::
-::: {.g-col-12 .g-col-md-8}
-En un mundo cada vez más cambiante, la adaptación es crucial para sobrevivir y prosperar. Como seres humanos, necesitamos ajustarnos constantemente a nuestro entorno para alcanzar la eficiencia necesaria para vivir una vida plena. El sistema nervioso es vital para este proceso y el grupo de investigación se enfoca en comprender las variables que promueven la mejor adaptación durante el desarrollo humano.
-:::
-<!--- --->
-::: {.g-col-12 .g-col-md-4}
-[Líneas de investigación]{style="font-size: 1.5rem"}
-:::
-::: {.g-col-12 .g-col-md-8}
-Nuestro grupo de investigación tiene como objetivo utilizar la neuromodulación como herramienta de evaluación para identificar y mejorar las capacidades psicofisiológicas de deportistas, adultos mayores y personas que viven en climas extremos. 
+::: {.g-col-12 .g-col-md-6}
+En un mundo cada vez más cambiante, la **adaptación es crucial para sobrevivir y prosperar**. Como seres humanos, necesitamos ajustarnos constantemente a nuestro entorno para alcanzar la eficiencia necesaria para vivir una vida plena. El sistema nervioso es vital para este proceso y el grupo de investigación se enfoca en **comprender las variables que promueven la mejor adaptación** durante el desarrollo humano.
 
-Nuestra investigación busca prevenir enfermedades y lesiones, mejorar el rendimiento y optimizar la calidad de vida de estas poblaciones mediante la identificación de áreas específicas que necesiten ser tratadas. 
+En nuestro grupo de investigación, nos dedicamos a profundizar en la adaptación neurofisiológica del ser humano a través del **eje cerebro-corazón**, centrándonos en los efectos de la **neuromodulación en diversas condiciones y situaciones**.
+:::
+<!--- --->
 
-A través de nuestro enfoque innovador, esperamos proporcionar información valiosa y fomentar el desarrollo de intervenciones basadas en neuromodulación que puedan ser aplicadas en un amplio rango de situaciones. ¡Únete a nuestro equipo y ayúdanos a mejorar la salud y el rendimiento de las personas en todo el mundo!
+::: {.g-col-12}
+[Líneas de investigación]{style="font-size:2rem;"}
 :::
-<!--- --->
-<!--- --->
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+::: {.g-col-12}
+<h2 style="font-weight:100;">Ejercicio</h2>
+:::
+::: {.g-col-12 .g-col-md-6}
+> ¿Cómo influye la neuromodulación en la respuesta fisiológica del cuerpo durante el ejercicio y de qué manera se puede optimizar el eje cerebro-corazon, para potenciar el rendimiento físico y bienestar general?
+
+Investigamos cómo la neuromodulación puede influir en la respuesta del cuerpo durante el ejercicio, optimizando no solo el rendimiento físico, sino también el bienestar general.
+:::
+::: {.g-col-12 .g-col-md-6}
 ```{=html}
 <div class="card">
-  <img src="images/research/exercise.jpeg" class="card-img-top" style="height: 15rem; object-fit: cover;">
-  <div class="card-body">
-    <h5 class="card-title">Neuromodulación a través del ejercicio</h5>
-  </div>
+  <img src="images/research/exercise.jpeg" class="card-img-top" style="height: 17rem; object-fit: cover;">
 </div>
 ```
 :::
-::: {.g-col-12 .g-col-md-6 .g-col-lg-4}
+
+::: {.g-col-12 }
+<h2 style="font-weight:100;">Envejecimiento</h2>
+:::
+::: {.g-col-12 .g-col-md-6}
+> ¿Qué impacto tiene el eje cerebro-corazón en el proceso de envejecimiento y cómo pueden estas intervenciones mejorar la salud neurofisiológica en personas mayores?
+
+Eexploramos el impacto de la neuromodulación en el proceso de envejecimiento, buscando entender cómo estas intervenciones pueden mejorar la salud neurofisiológica a medida que las personas avanzan en edad.
+:::
+::: {.g-col-12 .g-col-md-6}
 ```{=html}
 <div class="card">
-  <img src="images/research/extremecold.jpg" class="card-img-top" style="height: 15rem; object-fit: cover;">
-  <div class="card-body">
-    <h5 class="card-title">Adaptacion neurofisiologica en ambientes extremos</h5>
-  </div>
+  <img src="images/research/aging.jpeg" class="card-img-top" style="height: 17rem; object-fit: cover;">
 </div>
 ```
 :::
-::: {.g-col-12 .g-col-lg-4}
+
+::: {.g-col-12 }
+<h2 style="font-weight:100;">Ambientes Extremos</h2>
+:::
+::: {.g-col-12 .g-col-md-6}
+> ¿Cómo interactúan la neuromodulación y la exposición a climas extremos en la adaptación del eje cerebro-corazón del ser humano, y cuáles son las respuestas sistémicas del cuerpo ante estas condiciones ambientales desafiantes?
+
+Examinamos la interacción entre la neuromodulación y la exposición a climas extremos, analizando cómo el cuerpo se adapta y responde a condiciones ambientales desafiantes.
+:::
+::: {.g-col-12 .g-col-md-6}
 ```{=html}
 <div class="card">
-  <img src="images/research/aging.jpeg" class="card-img-top" style="height: 15rem; object-fit: cover;">
-  <div class="card-body">
-    <h5 class="card-title">Neuromodulación en personas mayores</h5>
-  </div>
+  <img src="images/research/extremecold.jpg" class="card-img-top" style="height: 17rem; object-fit: cover;">
 </div>
 ```
 :::
+
+::: {.g-col-12 }
+Si tienes curiosidad sobre los trabajos de investigación que hemos realizado, mira nuestros estudios publicados en relación a nuestras líneas de investigación aquí:
+
+<a class="btn btn-outline-primary" style="width:100%;" href="publicaciones.html">{{< fa suitcase >}} Publicaciones</a> 
+:::
+
 <!--- --->
 :::
 

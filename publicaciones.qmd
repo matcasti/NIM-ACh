@@ -47,6 +47,11 @@ Publicaciones
     <div class="tab-content research-tab-pane overflow-scroll" id="nav-tabContent" style="border-bottom: none;">
     
       <div class="tab-pane fade show active" id="l-2024" role="tabpanel" style="margin-top: -0.5rem; margin-bottom: -0.5rem;">
+        <p><strong>56.</strong> Mabe-Castro D, Castillo-Aguilar M, Mabe-Castro M, Muñoz RM, Basualto-Alarcón C, Nuñez-Espinosa CA. Associations between physical fitness, body composition, and heart rate variability during exercise in older people: Exploring mediating factors. PeerJ. 2024;12:e18061.</p>
+        <p><strong>55.</strong> Henriquez J, Henrı́quez W, Muñoz RM, Ibinarriaga T, Mabe-Castro D, Mabe-Castro M, et al. Deterioro cognitivo y ansiedad en adultos mayores: Caracterizaciones en una población de latitudes altas del sur. Revista de Investigación e Innovación en Ciencias de la Salud. 2024.</p>
+        <p><strong>54.</strong> Cares S, Espinosa CN, Castelblanco FG, Caastro DM. Valoración del control neuromuscular de miembro inferior de futbolistas de alta competencia. Revista Iberoamericana de Ciencias de la Actividad Fı́sica y el Deporte. 2024;13(2):1–17.</p>
+        <p><strong>53.</strong> Mendez OAN, Vargas NRR, Rodrı́guez LA, Polania FJL, Rumie DET, Salazar LRH, et al. Efectos de un protocolo de ejercicio fı́sico combinando HIIT y MISS en adultos funcionarios administrativos universitarios. Retos. 2025;62:319–26.</p>
+        <p><strong>52.</strong> Mabe-Castro M, Mabe-Castro D, Castillo-Aguilar M, Vera Carrasco M, Valdés-Badilla P, Guzman-Muñoz E, et al. Eccentric-induced delayed-onset muscle soreness impairs cardiac autonomic activity in adolescent athletes: A pre-experimental study. Retos: Nuevas Perspectivas de Educación Fı́sica, Deporte y Recreación. 2024;59.</p>
         <p><strong>51.</strong> Casanova LH, Luhr JH, Castillo-Aguilar M, Chacón A, Perez-Chacón M, King KH, et al. La alta sensibilidad del procesamiento sensorial y su relación con el equilibrio postural en personas mayores.(the high sensitivity of sensory processing and its relationship with postural balance in older people.). Retos. 2024;58:308–14.</p>
         <p><strong>50.</strong> Oyarzun MA, Carrion RV, Castillo-Aguilar M, Núñez-Espinosa CA. Análisis antropométrico y composición corporal en jugadoras de rugby seven que entrenan en latitudes altas del sur: Descripción y comparación según la posición en el campo (backs vs. forwards). Journal of Movement & Health. 2024;21(2).</p>
         <p><strong>49.</strong> Alvarez-Araos P, Jiménez S, Salazar-Ardiles C, Núñez-Espinosa C, Paez V, Rodriguez-Fernandez M, et al. Baroreflex and chemoreflex interaction in high-altitude exposure: Possible role on exercise performance. Frontiers in Physiology. 2024;15:1422927.</p>
@@ -147,6 +152,16 @@ Publicaciones
   </div>
 </div>
 ```
+
+<br>
+
+:::{.column-page .grid}
+::: {.g-col-12 }
+Si tienes curiosidad sobre quien conforma al equipo detrás de todos estos trabajos, te invitamos a conocerlos aquí:
+
+<a class="btn btn-outline-primary" style="width:100%;" href="personas.html">{{< fa suitcase >}} Conoce al Equipo</a> 
+:::
+:::
 
 <br>
 

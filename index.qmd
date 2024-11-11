@@ -68,14 +68,38 @@ title: "Inicio"
 </div> 
 ```
 
-
-:::: {.grid .column-screen-inset style="--bs-columns: 6; margin-left: 17px !important; margin-right: 17px !important; margin-bottom: 17px !important;"}
-::: g-col-6
-# Noticias
+::: {.display-5 .column-page}
+Quienes somos
 :::
 
+:::: {.grid .column-screen-inset style="--bs-columns: 6; margin-left: 17px !important; margin-right: 17px !important; margin-bottom: 17px !important;"}
+::: {.g-col-6 .g-col-sm-4 .g-start-sm-2}
+## Identidad
+
+Somos un grupo de investigación dedicado a profundizar en la adaptación neurofisiológica del ser humano a través del eje cerebro-corazón, centrándonos en los efectos de la neuromodulación en diversas condiciones y situaciones.
+
+## Misión
+
+Nuestra misión principal, como grupo de investigación, está centrada en: 
+
+> [Conocer la Capacidad de Adaptación Neurofisiológica del ser Humano a Través del Eje Cerebro-Corazón.]{style="font-size: 1.5rem;"}
+
+Indaga más sobre nuestras líneas de investigación aquí:
+
+<a class="btn btn-outline-primary" style="width:100%;" href="investigacion.html">{{< fa suitcase >}} Investigación</a> 
+:::
+::::
+
+::: {.display-5 .column-page}
+Noticias
+:::
+
+:::: {.grid .column-screen-inset style="--bs-columns: 6; margin-left: 17px !important; margin-right: 17px !important; margin-bottom: 17px !important;"}
 ::: {.g-col-6 .g-col-sm-4 .g-start-sm-2}
 ## 2024
+**Noviembre** --- El grupo NIM ACh presentará en el primer Seminario de Ciencias del Deporte y la Actividad Física, organizado por la Unidad de Deportes de la Universidad de Magallanes.
+
+**Noviembre** --- Nuestra alumna investigadora Tiare Ibinarriaga fue aceptada en el programa de Doctorado en Ciencias del Desarrollo y Psicopatología de la Universidad del Desarrollo para el año 2025.
 
 **Junio** --- Comenzamos con las mediciones de nadadores de aguas gélidas en Magallanes.
 
