@@ -43,10 +43,10 @@ Profesor de fisiología humana\
 Profesor asociado en la Escuela de Medicina\
 Universidad de Magallanes
 
-[![](images/icons/linkedin.png){width="30px" height="30px"}](https://www.linkedin.com/in/cristian-n%C3%BA%C3%B1ez-espinosa-5a143349/)
-[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Cristian-Nunez-Espinosa)
-[![](images/icons/orcid.png){width="30px" height="30px"}](https://orcid.org/0000-0002-9896-7062)
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:cristian.nunez\@umag.cl)
+[![](images/icons/linkedin.png){width="25px" height="25px"}](https://www.linkedin.com/in/cristian-n%C3%BA%C3%B1ez-espinosa-5a143349/)
+[![](images/icons/researchgate.png){width="25px" height="25px"}](https://www.researchgate.net/profile/Cristian-Nunez-Espinosa)
+[![](images/icons/orcid.png){width="25px" height="25px"}](https://orcid.org/0000-0002-9896-7062)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:cristian.nunez\@umag.cl)
 :::
 :::
 
@@ -62,7 +62,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Javiera Gonzalez</strong>
 <p class="card-text">Kinesióloga, Coordinadora de grupo</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:gnzl.javiera\@gmail.com)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:gnzl.javiera\@gmail.com)
 </div>
 :::
 
@@ -71,9 +71,9 @@ Universidad de Magallanes
 <div class="card-body" style="text-align: left;">
 <strong>Matías Castillo-Aguilar</strong>
 <p class="card-text">Kinesiólogo, Analista de datos</p>
-[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Matias-Castillo-Aguilar)
-[![](images/icons/orcid.png){width="30px" height="30px"}](https://orcid.org/0000-0001-7291-247X)
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:matcasti\@umag.cl)
+[![](images/icons/researchgate.png){width="25px" height="25px"}](https://www.researchgate.net/profile/Matias-Castillo-Aguilar)
+[![](images/icons/orcid.png){width="25px" height="25px"}](https://orcid.org/0000-0001-7291-247X)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:matcasti\@umag.cl)
 </div>
 :::
 :::
@@ -90,7 +90,7 @@ Universidad de Magallanes
 <div class="card-body" style="text-align: left;">
 <strong>Caludia Estrada Goic</strong>
 <p class="card-text">PhD, Psicología</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:claudia.estrada\@umag.cl)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:claudia.estrada\@umag.cl)
 </div>
 :::
 
@@ -99,7 +99,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Sergio Cares Barrientos</strong>
 <p class="card-text">Kinesiólogo</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:sergio.cares\@umag.cl)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:sergio.cares\@umag.cl)
 </div>
 :::
 :::
@@ -116,7 +116,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Wolfrang Henriquez</strong>
 <p class="card-text">PhD ©, Ciencias (UMAG)</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:wolfrang.henriquez\@umag.cl)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:wolfrang.henriquez\@umag.cl)
 </div>
 :::
 :::
@@ -133,7 +133,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Ruby Méndez</strong>
 <p class="card-text">Profesora de Educación Física</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:rumendez\@umag.cl)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:rumendez\@umag.cl)
 </div>
 :::
 
@@ -142,7 +142,9 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Karen Tobar</strong>
 <p class="card-text">Psicóloga</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:tobar_karen\@hotmail.com)
+
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:tobar_karen\@hotmail.com)
+
 </div>
 :::
 
@@ -151,7 +153,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Roberto Herrera</strong>
 <p class="card-text">Psicólogo</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:r.herrera.avila\@gmail.com)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:r.herrera.avila\@gmail.com)
 </div>
 :::
 
@@ -160,7 +162,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>José Miguel Rubina</strong>
 <p class="card-text">Psicólogo</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:josemiguel.rubina\@gmail.com)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:josemiguel.rubina\@gmail.com)
 </div>
 :::
 :::
@@ -177,7 +179,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Leyla Huirimilla</strong>
 <p class="card-text">Psicóloga</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:leylahuirimilla\@gmail.com)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:leylahuirimilla\@gmail.com)
 </div>
 :::
 
@@ -186,7 +188,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Valeska Oyarzo Igor</strong>
 <p class="card-text">Fonoaudióloga</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:valeska.oyarzo\@umag.cl)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:valeska.oyarzo\@umag.cl)
 </div>
 :::
 
@@ -195,7 +197,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Jonathan Henríquez Lühr</strong>
 <p class="card-text">Psicólogo</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:jonathan.henriquez\@umag.cl)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:jonathan.henriquez\@umag.cl)
 </div>
 :::
 
@@ -204,7 +206,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Tiare Ibinarriaga</strong>
 <p class="card-text">Psicóloga</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:tibinarr\@umag.cl)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:tibinarr\@umag.cl)
 </div>
 :::
 
@@ -213,7 +215,7 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Marcelo Andrade</strong>
 <p class="card-text">Nutricionista</p>
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:marceloandrade2491\@gmail.com)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:marceloandrade2491\@gmail.com)
 </div>
 :::
 :::
@@ -238,8 +240,8 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Matías Mabe Castro</strong>
 <p class="card-text">Estudiante de Medicina (UMAG)</p>
-[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Matias-Mabe)
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:mmabe\@umag.cl)
+[![](images/icons/researchgate.png){width="25px" height="25px"}](https://www.researchgate.net/profile/Matias-Mabe)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:mmabe\@umag.cl)
 </div>
 :::
 
@@ -248,8 +250,8 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Diego Mabe Castro</strong>
 <p class="card-text">Estudiante de Kinesiología (UMAG)</p>
-[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Diego-Mabe-Castro)
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:dmabe\@umag.cl)
+[![](images/icons/researchgate.png){width="25px" height="25px"}](https://www.researchgate.net/profile/Diego-Mabe-Castro)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:dmabe\@umag.cl)
 </div>
 :::
 
@@ -258,9 +260,9 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Caren Alvarado Aravena</strong>
 <p class="card-text">Interna de Medicina (UMAG)</p>
-[![](images/icons/linkedin.png){width="30px" height="30px"}](https://cl.linkedin.com/in/caren-alvarado-aravena-a07712218)
-[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Caren-Alvarado-Aravena)
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:caren.ccaa\@gmail.com)
+[![](images/icons/linkedin.png){width="25px" height="25px"}](https://cl.linkedin.com/in/caren-alvarado-aravena-a07712218)
+[![](images/icons/researchgate.png){width="25px" height="25px"}](https://www.researchgate.net/profile/Caren-Alvarado-Aravena)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:caren.ccaa\@gmail.com)
 </div>
 :::
 
@@ -269,10 +271,10 @@ Universidad de Magallanes
 <div class="card-body">
 <strong>Matías Riquelme Ortega</strong>
 <p class="card-text">Interno de Medicina (UMAG)</p>
-[![](images/icons/linkedin.png){width="30px" height="30px"}]()
-[![](images/icons/researchgate.png){width="30px" height="30px"}](https://www.researchgate.net/profile/Matias-Riquelme-Ortega)
-[![](images/icons/orcid.png){width="30px" height="30px"}](https://orcid.org/0000-0001-6410-9265)
-[![](images/icons/mail.png){width="30px" height="30px"}](mailto:matiriqu\@umag.cl)
+[![](images/icons/linkedin.png){width="25px" height="25px"}]()
+[![](images/icons/researchgate.png){width="25px" height="25px"}](https://www.researchgate.net/profile/Matias-Riquelme-Ortega)
+[![](images/icons/orcid.png){width="25px" height="25px"}](https://orcid.org/0000-0001-6410-9265)
+[![](images/icons/mail.png){width="25px" height="25px"}](mailto:matiriqu\@umag.cl)
 </div>
 :::
 
@@ -348,6 +350,13 @@ Universidad de Magallanes
 <img src="images/people/p/coco-javiera.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Coco</strong>
+</div>
+:::
+
+::: {.g-col-6 .g-col-xs-3 .g-col-sm-3 .g-col-lg-3 .card}
+<img src="images/people/p/limoncito-javi.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<div class="card-body">
+<strong>Limoncito</strong>
 </div>
 :::
 
