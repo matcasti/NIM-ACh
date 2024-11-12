@@ -67,7 +67,7 @@ Universidad de Magallanes
 :::
 
 ::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
-<img src="images/people/p/matias-castillo.jpg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
+<img src="images/people/p/matias-castillo.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body" style="text-align: left;">
 <strong>Matías Castillo-Aguilar</strong>
 <p class="card-text">Kinesiólogo, Analista de datos</p>
@@ -288,14 +288,6 @@ Universidad de Magallanes
 <img src="images/people/p/catalina-marin.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body">
 <strong>Catalina Marin</strong>
-<p class="card-text">Estudiante de Medicina (UMAG)</p>
-</div>
-:::
-
-::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
-<img src="images/people/p/david-paillan.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
-<div class="card-body">
-<strong>David Paillan</strong>
 <p class="card-text">Estudiante de Medicina (UMAG)</p>
 </div>
 :::

@@ -59,7 +59,7 @@ Investigamos cómo la neuromodulación puede influir en la respuesta del cuerpo 
 ::: {.g-col-12 .g-col-md-6}
 > ¿Qué impacto tiene el eje cerebro-corazón en el proceso de envejecimiento y cómo pueden estas intervenciones mejorar la salud neurofisiológica en personas mayores?
 
-Eexploramos el impacto de la neuromodulación en el proceso de envejecimiento, buscando entender cómo estas intervenciones pueden mejorar la salud neurofisiológica a medida que las personas avanzan en edad.
+Exploramos el impacto de la neuromodulación en el proceso de envejecimiento, buscando entender cómo estas intervenciones pueden mejorar la salud neurofisiológica a medida que las personas avanzan en edad.
 :::
 ::: {.g-col-12 .g-col-md-6}
 ```{=html}
