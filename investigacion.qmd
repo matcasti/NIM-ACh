@@ -22,6 +22,9 @@ title: "Investigación"
 
 ::: {.grid .gap-3}
 <!--- --->
+::: {.g-col-12}
+![](images/research/graph-summary.svg)
+:::
 <!--- --->
 ::: {.g-col-12 .g-col-md-6}
 [Nuestros intereses]{style="font-size:2rem;"}
