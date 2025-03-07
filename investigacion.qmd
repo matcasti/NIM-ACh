@@ -22,10 +22,6 @@ title: "Investigación"
 
 ::: {.grid .gap-3}
 <!--- --->
-::: {.g-col-12}
-![](images/research/graph-summary.svg)
-:::
-<!--- --->
 ::: {.g-col-12 .g-col-md-6}
 [Nuestros intereses]{style="font-size:2rem;"}
 :::
@@ -39,6 +35,12 @@ En nuestro grupo de investigación, nos dedicamos a profundizar en la adaptació
 ::: {.g-col-12}
 [Líneas de investigación]{style="font-size:2rem;"}
 :::
+
+<!--- --->
+::: {.g-col-12}
+![](images/research/graph-summary.svg){width=100%}
+:::
+<!--- --->
 
 ::: {.g-col-12}
 <h2 style="font-weight:100;">Ejercicio</h2>
