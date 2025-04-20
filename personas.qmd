@@ -88,7 +88,7 @@ Universidad de Magallanes
 ::: {.g-col-6 .g-col-xs-4 .g-col-sm-3 .g-col-lg-3 .card}
 <img src="images/people/p/claudia-estrada.jpeg" class="card-img-top m-auto" style="height: 10rem; object-fit: cover;">
 <div class="card-body" style="text-align: left;">
-<strong>Caludia Estrada Goic</strong>
+<strong>Claudia Estrada Goic</strong>
 <p class="card-text">PhD, Psicología</p>
 [![](images/icons/mail.png){width="25px" height="25px"}](mailto:claudia.estrada\@umag.cl)
 </div>
