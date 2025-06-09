@@ -26,7 +26,7 @@ title: "Investigación"
 [Nuestros intereses]{style="font-size:2rem;"}
 :::
 ::: {.g-col-12 .g-col-md-6}
-En un mundo cada vez más cambiante, la **adaptación es crucial para sobrevivir y prosperar**. Como seres humanos, necesitamos ajustarnos constantemente a nuestro entorno para alcanzar la eficiencia necesaria para vivir una vida plena. El sistema nervioso es vital para este proceso y el grupo de investigación se enfoca en **comprender las variables que promueven la mejor adaptación** durante el desarrollo humano.
+En un mundo cada vez más cambiante, la **adaptación es crucial para sobrevivir y prosperar**. Como seres humanos, necesitamos ajustarnos constantemente a nuestro entorno para alcanzar la eficiencia necesaria para vivir una vida plena. El sistema nervioso es vital para este proceso y nuestro grupo de investigación se enfoca en **comprender las variables que promueven la mejor adaptación** durante el desarrollo humano.
 
 En nuestro grupo de investigación, nos dedicamos a profundizar en la adaptación neurofisiológica del ser humano a través del **eje cerebro-corazón**, centrándonos en los efectos de la **neuromodulación en diversas condiciones y situaciones**.
 :::

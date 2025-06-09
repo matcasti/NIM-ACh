@@ -96,7 +96,15 @@ Noticias
 
 :::: {.grid .column-screen-inset style="--bs-columns: 6; margin-left: 17px !important; margin-right: 17px !important; margin-bottom: 17px !important;"}
 ::: {.g-col-6 .g-col-sm-4 .g-start-sm-2}
+## 2025
+
+**Junio** --- Con gran convocatoria, el grupo NIM ACh realizó el primer Seminario de Neurociencia Joven: _Mentes del Fin del Mundo_. Se contó con la presencia de estudiantes de enseñanza media, provenientes de los diferentes establecimientos educativos de la Región de Magallanes.
+
+**Enero** --- De parte del equipo NIM ACh, felicitamos al Dr. Cristian Núñez Espinosa por adjudicarse un FONDECYT regular. 🍾 ¡Se vienen grandes cosas!
+
+
 ## 2024
+
 **Noviembre** --- El grupo NIM ACh presentará en el primer Seminario de Ciencias del Deporte y la Actividad Física, organizado por la Unidad de Deportes de la Universidad de Magallanes.
 
 **Noviembre** --- Nuestra alumna investigadora Tiare Ibinarriaga fue aceptada en el programa de Doctorado en Ciencias del Desarrollo y Psicopatología de la Universidad del Desarrollo para el año 2025.
