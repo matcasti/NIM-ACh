@@ -166,6 +166,60 @@ Publicaciones
 
 <br>
 
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-dpi: 400
+library(ggplot2)
+library(rvest)
+library(data.table)
+
+webpage <- read_html(x = "_refs.html")
+
+artext <- webpage |> 
+  html_elements("#refs") |> 
+  html_text(trim = T) |> 
+  strsplit("\n") |> 
+  unlist() |> 
+  trimws()
+
+artext <- artext[artext != ""]
+
+years <- fcase(
+  grepl("2013",artext), "2013",
+  grepl("2014",artext), "2014",
+  grepl("2015",artext), "2015",
+  grepl("2016",artext), "2016",
+  grepl("2017",artext), "2017",
+  grepl("2018",artext), "2018",
+  grepl("2019",artext), "2019",
+  grepl("2020",artext), "2020",
+  grepl("2021",artext), "2021",
+  grepl("2022",artext), "2022",
+  grepl("2023",artext), "2023",
+  grepl("2024",artext), "2024",
+  grepl("2025",artext), "2025"
+)
+
+plot_data <- data.table(years)
+plot_data <- plot_data[, .N, years]
+
+ggplot(plot_data, aes(x = years, y = N)) +
+  geom_col(aes(fill = after_stat(x == max(x))), show.legend = FALSE) +
+  labs(x = NULL, y = "Número de publicaciones",
+       title = "Productividad Científica",
+       subtitle = "Basado en el Número de Publicaciones del Grupo",
+       caption = "En amarillo el año actual") +
+  theme_classic(base_size = 16) +
+  theme(panel.grid.major.y = element_line(linewidth = 1, linetype = 2),
+        axis.text.x = element_text(angle = 45, hjust = 1)) +
+  scale_y_continuous(expand = c(0,0,0,5)) +
+  ggsci::scale_fill_bmj() 
+```
+
+<br>
+
 :::{.column-page .grid}
 ::: {.g-col-12 }
 Si tienes curiosidad sobre quien conforma al equipo detrás de todos estos trabajos, te invitamos a conocerlos aquí:
